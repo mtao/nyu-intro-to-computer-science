@@ -15,20 +15,6 @@ h3 {
   font-weight: normal;
 }
 
-h1,
-p {
-  color: white;
-}
-h2 {
-  color: #c5645e;
-}
-
-a,
-blockquote,
-strong,
-em {
-  color: #fadf68;
-}
 
 blockquote {
   /* vertical line on the left of quotes */
@@ -49,18 +35,15 @@ img {
 }
 
 .remark-container {
-  background-color: black; /* #540F0E; */
+  background-color: white; /* #540F0E; */
 }
 
 .remark-slide-content {
-  background-color: black; /* #1E270D; */
-  color: white;
+  background-color: white; /* #1E270D; */
+  color: black;
 }
 
-.remark-slide-scaler {
-  -webkit-box-shadow: 0 0 30px #646f32;
-  box-shadow: 0 0 30px #646f32;
-}
+
 
 .remark-code,
 .remark-inline-code {

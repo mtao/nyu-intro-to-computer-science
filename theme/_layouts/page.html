@@ -21,16 +21,8 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       <header>
-        <small>
-          <a href="https://github.com/{{ site.github-username }}">
-            {{ site.github-username | downcase | strip_html }}
-          </a>
-          /
-          <a href="{{ site.baseurl | strip_html }}/">
-            <!-- {{ site.github-org-name }} -->
-            {{ site.github-reponame | strip_html }}
-          </a>
-        </small>
+          <h1>{{ site.title }} <small>({{ site.section }})</small>
+              </h1>
       </header>
 
       <main>{{ content | markdownify }}</main>
@@ -49,11 +41,6 @@
         <div
           class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray"
         >
-          Help
-          <a
-            href="https://github.com/{{ site.github-username }}{{ site.baseurl }}/blob/main/{{ page.path | strip_html }}"
-            >improve this page </a
-          >.
         </div>
       </footer>
     </div>

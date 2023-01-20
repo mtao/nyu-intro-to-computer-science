@@ -4,7 +4,7 @@ Slide presentations used to teach basic computer science concepts, largely focus
 
 ## Deployed site
 
-View the [schedule](https://nyu-java-programming.github.io/course-materials/) and [syllabus](https://nyu-java-programming.github.io/course-materials/syllabus), which contain links to all deployed course materials.
+View the [schedule](https://nyu-java-programming.github.io/course-materials/schedule) and [syllabus](https://nyu-java-programming.github.io/course-materials/syllabus), which contain links to all deployed course materials.
 
 ## Running locally
 
@@ -16,3 +16,6 @@ It is possible to run the website locally on your own machine.
 - Install [Jekyll](https://jekyllrb.com/) globally
 - Install the dependencies listed in the `Gemfile` by running the command, `bundle`.
 - run `bundle exec jekyll serve` or simply `jekyll serve` if that doesn't work.
+
+### Attribution
+This was forked from [Amos Bloomberg](https://knowledge.kitchen)'s [course materials](https://github.com/nyu-java-programming/course-materials).

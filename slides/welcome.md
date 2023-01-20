@@ -39,7 +39,7 @@ name: introductions-1
 Introduction to Computer Science
 
 - Syllabus: [syllabus](../../syllabus)
-- Schedule: [schedule](../../)
+- Schedule: [schedule](../../schedule)
 
 ---
 
@@ -53,13 +53,10 @@ Official description:
 
 template: introductions
 
-## Me
+## Me (Michael Tao)
 
-Foo Barstein
-
-instagram: [foo.barstein](https://instagram.com/foo.barstein)
-
-discord: @foo.barstein
+![Mandoline](https://www.dgp.toronto.edu/projects/mandoline/teaser.png)
+![VEMPIC](https://www.dgp.toronto.edu/projects/vempic/teaser.png)
 
 ---
 
@@ -67,9 +64,9 @@ template: introductions
 
 ## You
 
-- Probably an aspiring programmer.
-- Perhaps an aspiring computer scientist.
-- Hopefully interested in making things and solving problems.
+- An aspiring programmer?
+- An aspiring computer scientist?
+- Interested in making things and solving problems?
 - Willing to spend hours by yourself reading and staring at code.
 
 ---
@@ -541,7 +538,8 @@ template: how-course-works
 
 ## Notes
 
-I write notes for most lecture topics. You may find them useful but incomplete.
+[Amos Bloomberg](https://knowledge.kitchen) provides notes for most lecture
+topics. You may find them useful but incomplete.
 
 ---
 
@@ -549,7 +547,9 @@ template: how-course-works
 
 ## Slides
 
-Students constantly request slides, so I have made them. However, I believe you are better off reviewing documents and code. Each slide has a link to its "source" document, which may be easier to read.
+Slides are available online on the [schedule](../../schedule), However, it
+should be treated like a Table of Contents. It is better to review documents
+and example code.
 
 ---
 
@@ -557,7 +557,8 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](../../syllabus) and elsewhere each class. The textbook is quite thorough.
+Reading assignments from [the textbook](../../syllabus) and elsewhere each
+class. The textbook is quite thorough.
 
 ---
 
