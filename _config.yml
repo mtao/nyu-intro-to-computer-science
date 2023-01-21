@@ -1,7 +1,7 @@
 github-username: mtao
 github-reponame: nyu-intro-to-computer-science
-url: https://cs.nyu.edu
-baseurl: /courses/spring23/CSCI-UA.0101-009/
+  #url: https://cs.nyu.edu
+  #baseurl: /courses/spring23/CSCI-UA.0101-009/
 title: Introduction to Computer Science
 section: CSCI-UA.0101-009
 description: >
