@@ -1,16 +1,16 @@
 - date: "1/23"
-  class: 1
+  number: 1
   topics: Syllabus
   notes: "[Welcome](slides/welcome)"
 
 
-- date1: "1/25"
-  class: 2
+- date: "1/25"
+  number: 2
   topics: Basic computer concepts
   notes: "[Basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts)"
   resources: "[Computer Science: Not about Computers, Not Science](/content/assets/Computer_Science_Not_About_Computers_Not_a_Science.pdf)"
 - date: "1/30"
-  class: 3
+  number: 3
   topics: Unix
   notes: "[Unix intro](slides/unix-intro)"
   resources: "[Basic computer concepts](https://forms.gle/BfakrCEsdRVZN96Q7)"
