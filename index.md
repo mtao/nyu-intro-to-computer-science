@@ -14,8 +14,8 @@ at its
 
 ## Resources
 
-* [Syllabus](/syllabus)
-* [Schedule](/schedule)
+* [Syllabus](syllabus)
+* [Schedule](schedule)
 The schedule also contains links to various course material, including slides
 and notes.
 
