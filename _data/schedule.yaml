@@ -1,6 +1,6 @@
 - date: "1/23"
   number: 1
-  topics: Syllabus
+  topics: "[Syllabus](syllabus)"
   notes: "[Welcome](slides/welcome)"
 
 
@@ -21,7 +21,7 @@
   topics: 'The Java paradigm'
   notes: '- [Java paradigm](slides/java-paradigm)<br />- [Starter code](slides/starter-code)'
   resources: '- Chapter 2<br />- [Java acronyms](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm#jre)'
-  quiz: '[Unix](https://forms.gle/iyXBk9cqfBvF8dAA6)'
+  quiz: 'Unix'
   exercise: 'Assignment 1:<br />- [GitHub practice run](https://classroom.github.com/a/XSs6N-pn)'
 
 - date: '2/6'
@@ -29,37 +29,39 @@
   topics: 'Decision-making'
   notes: '[Branching](slides/branching)'
   resources: '- Oracle tutorials: [Primitive data types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)<br />- [Decision-making example code](https://github.com/nyu-java-programming/decision-making-examples)'
-  quiz: '[Java paradigm](https://forms.gle/Had67dQ5RtuErPG2A)'
-  exercise: 'Assignment 2:<br />- [Basic programming](https://classroom.github.com/a/MnroPSxI)'
+  quiz: 'Java paradigm'
+  exercise: 'Assignment 2:<br />- Basic programming'
+    #exercise: 'Assignment 2:<br />- [Basic programming](https://classroom.github.com/a/MnroPSxI)'
 
 - date: '2/8'
   number: 6
   topics: 'Loops'
   notes: '[Loops](slides/loops)'
   resources: '- Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples)'
-  quiz: '[Branching](https://forms.gle/ZXPwAwGaEziDh6dF6)'
+  quiz: 'Branching'
 
 - date: '2/13'
   number: 7
   topics: 'Methods'
   notes: '[Methods](slides/methods)'
   resources: '- Chapter 6<br />- [Methods example code](https://github.com/nyu-java-programming/methods-examples)'
-  quiz: '[Loops](https://forms.gle/sdSR7XCZPWbPQnTh9)'
-  exercise: 'Assignment 3:<br />- [Blackjack](https://classroom.github.com/a/ojikBwt5)'
+  quiz: 'Loops'
+  exercise: 'Assignment 3:<br />- Blackjack'
+    #exercise: 'Assignment 3:<br />- [Blackjack](https://classroom.github.com/a/ojikBwt5)'
 
 - date: '2/15'
   number: 8
   topics: 'Arrays'
   notes: '[Arrays](slides/arrays)'
   resources: '- Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples)'
-  quiz: '[Methods](https://forms.gle/tyV1s6gg5D9yu6XK9)'
+  quiz: 'Methods'
 
 - date: '2/20'
   number: 9
   topics: 'Review'
   notes: ''
   resources: ''
-  quiz: '[Arrays](https://forms.gle/D63khn5ZQuL7U1XK6)'
+  quiz: 'Arrays'
 
 - date: '2/22'
   number: 10
@@ -67,7 +69,8 @@
   notes: ''
   resources: ''
   quiz: ''
-  exercise: 'Assignment 4:<br />- [Text analysis](https://classroom.github.com/a/mkQ8J87J)'
+  exercise: 'Assignment 4:<br />- Text analysis'
+  #exercise: 'Assignment 4:<br />- [Text analysis](https://classroom.github.com/a/mkQ8J87J)'
 
 - date: '2/27'
   number: 11
@@ -84,7 +87,7 @@
   topics: 'Exam #1 post-mortem'
   notes: ''
   resources: ''
-  quiz: '[Multidimensional arrays](https://forms.gle/tPPnkWy8N5CB1QR19)'
+  quiz: 'Multidimensional arrays'
 
 - date: '3/8'
   number: 14
@@ -98,22 +101,24 @@
   notes: ''
   resources: ''
   quiz: ''
-  exercise: 'Assignment 5:<br />- [Open data](https://classroom.github.com/a/-L_DvnSA)'
+  exercise: 'Assignment 5:<br />- Open data'
+    #exercise: 'Assignment 5:<br />- [Open data](https://classroom.github.com/a/-L_DvnSA)'
 
 - date: '3/22'
   number: 16
   topics: 'Strings'
   notes: '[Strings and related classes](slides/strings-as-objects)'
   resources: '- Chapter 4<br />- [Strings basic example code](https://github.com/nyu-java-programming/string-examples)<br />- [Text alignment example code](https://github.com/nyu-java-programming/text-alignment)'
-  quiz: '[Object orientation](https://forms.gle/4eRXHx3q2xFgfQnT7)'
+  quiz: 'Object orientation'
 
 - date: '3/27'
   number: 17
   topics: 'Processing'
   notes: '[Processing](slides/processing)'
   resources: '[Processing basic example code](https://github.com/nyu-java-programming/processing-basic-example)'
-  quiz: '[String and related classes](https://forms.gle/jsDhFEpu4Qh4C3PZ6)'
-  exercise: 'Assignment 6:<br />- [Virtual moped](https://classroom.github.com/a/lzJgPwQX)'
+  quiz: 'String and related classes'
+  exercise: 'Assignment 6:<br />- Virtual moped'
+    #exercise: 'Assignment 6:<br />- [Virtual moped](https://classroom.github.com/a/lzJgPwQX)'
 
 - date: '3/29'
   number: 18
@@ -133,8 +138,9 @@
   topics: 'Review'
   notes: '[Exam 2 review](slides/exam-2-review)'
   resources: ''
-  quiz: '[Inheritance and polymorphism](https://forms.gle/iFMhRDLyMu1jhagw6)'
-  exercise: 'Assignment 7:<br />- [Game development](https://classroom.github.com/a/C8ETtM6F)'
+  quiz: 'Inheritance and polymorphism'
+  exercise: 'Assignment 7:<br />- Game development'
+    #exercise: 'Assignment 7:<br />- [Game development](https://classroom.github.com/a/C8ETtM6F)'
 
 - date: '4/10'
   number: 21
@@ -165,15 +171,16 @@
   topics: 'Exception handling'
   notes: '[Exception handling](slides/exception-handling)'
   resources: '- Chapter 12<br />- [Exceptions example code](https://github.com/nyu-java-programming/exceptions-examples)'
-  quiz: '[Interfaces and abstract classes](https://forms.gle/jviducGsPuWadPGJ9)'
-  exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
+  quiz: 'Interfaces and abstract classes'
+  exercise: 'Assignment 8:<br />- Interfaces and abstract classes'
+    #exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
 
 - date: '5/1'
   number: 27
   topics: 'Recursion'
   notes: '[Recursion](slides/recursion)'
   resources: '- Chapter 18<br />- [Recursion example code](https://github.com/nyu-java-programming/recursion-examples)'
-  quiz: '[Exceptions](https://forms.gle/FVQxZn9M3n8CbbU3A)'
+  quiz: 'Exceptions'
 
 - date: '5/3'
   number: 28
@@ -181,5 +188,6 @@
   notes: '[Exam 3 review](slides/exam-3-review)'
   resources: ''
   quiz: ''
-  exercise: 'Assignment 9:<br />- [Recursion](https://classroom.github.com/a/pPKqGy5S)<br /><br />**No late assignments accepted past this date**'
+  exercise: 'Assignment 9:<br />- Recursion'
+    #exercise: 'Assignment 9:<br />- [Recursion](https://classroom.github.com/a/pPKqGy5S)<br /><br />**No late assignments accepted past this date**'
 
