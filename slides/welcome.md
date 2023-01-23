@@ -448,13 +448,12 @@ Can you answer these questions?
 
 - What is an operating system? What is an application?
 
-
 --
 
-Review:
-- [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
-- Chapter 1.1-1.4 in the [textbook](./../syllabus#textbook)
-- I will write release some notes before next lecture on the components of a computer.
+- Review:
+  - [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
+  - Chapter 1.1-1.4 in the [textbook](./../syllabus#textbook)
+  - I will write release some notes before next lecture on the components of a computer.
 
 ---
 
