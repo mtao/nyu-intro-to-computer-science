@@ -49,9 +49,6 @@ https://cs.nyu.edu/courses/spring23/CSCI-UA.0101-009/
 
 
 
-
-
-
 ---
 
 template: introductions-1
@@ -101,6 +98,20 @@ computer_sciencing.find(computers) == -1
 ```python
 computer_sciencing not in sciences
 ```
+
+---
+
+template: introductions
+
+## Java
+We use Java to:
+- Gain experience learning new programming languages
+ - Understand the principles of the tools you've learned
+
+- Object Oriented Programming
+- "Explicit"
+
+
 
 ---
 
@@ -349,6 +360,7 @@ math.pow(2, 2)
 
 Try to convince me that you don't understand this code:
 
+(almost) javascript
 ```javascript
 let x = 5;
 let y = true;
@@ -357,6 +369,7 @@ if (x < 10 and y == true) {
 }
 ```
 
+(almost) Java
 ```java
 int x = 5;
 boolean y = true;
@@ -364,6 +377,10 @@ if (x < 10 and y == true) {
     System.out.println("Easy peasy!");
 }
 ```
+
+--
+
+Just change "and" to "||"
 
 ---
 
@@ -384,7 +401,7 @@ you = new Student("Jane Doe")
 ```
 
 ```python
-me = new Professor("Foo Barstein")
+me = new Professor("Michael Tao")
 ```
 
 ```python
@@ -408,6 +425,11 @@ name: didnt-know-1
 
 Can you answer these questions?
 
+
+- What are the components of a computer?
+
+--
+
 - What is a file? What is a folder?
 
 --
@@ -426,17 +448,13 @@ Can you answer these questions?
 
 - What is an operating system? What is an application?
 
---
-
-- What is the Internet? What is The World Wide Web?
 
 --
 
-- What is The Cloud?
-
---
-
-Review [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
+Review:
+- [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
+- Chapter 1.1-1.4 in the [textbook](../../syllabus#textbook)
+- I will write release some notes before next lecture on the components of a computer.
 
 ---
 
@@ -543,7 +561,8 @@ I will speak for 75 minutes about twice each week.... that's 150 minutes of talk
 
 --
 
-I sincerely hope for your sake and mine that you will interrupt me and ask lots of questions.
+Please interrupt me and ask questions. 
+- Lectures are far more effective when there's two-way communication
 
 ---
 
@@ -554,13 +573,16 @@ template: how-course-works
 [Amos Bloomberg](https://knowledge.kitchen) provides notes for most lecture
 topics. You may find them useful but incomplete.
 
+- The notes pertinent to any lecture are found on the [schedule](../../schedule).
+
+
 ---
 
 template: how-course-works
 
 ## Slides
 
-Slides are available online on the [schedule](../schedule), However, it
+Slides are available online on the [schedule](../../schedule), However, it
 should be treated like a Table of Contents. It is better to review documents
 and example code.
 
@@ -570,7 +592,7 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](../syllabus) and elsewhere each
+Reading assignments from [the textbook](../../syllabus) and elsewhere each
 class. The textbook is quite thorough.
 
 ---
@@ -613,10 +635,12 @@ template: how-course-works
 ## Exams
 
 You will take 3 exams.
+- Two midterms
+- One final
 
-Many find the first exam to be easy. The second and third... not so much!
+--
 
-Students who come to class tend to do better.
+They will be cummulative
 
 ---
 
@@ -624,11 +648,11 @@ template: how-course-works
 
 ## Grading
 
-- 25% quizzes
-- 35% assignments
-- 10% first exam
-- 15% second exam
-- 15% third exam
+- 10% quizzes
+- 20% assignments
+- 20% first midterm
+- 20% second midterm
+- 30% final exam
 
 ---
 
@@ -640,7 +664,7 @@ We use Slack for all communication outside of the classroom.
 
 You must create a private channel in Slack with your NYUID.
 
-Link can also be found on the [syllabus](/syllabus#messaging).
+Link can also be found on the [syllabus](../../syllabus#messaging).
 
 ---
 
@@ -673,7 +697,7 @@ The [syllabus](../../syllabus) contains basic information on how this course wor
 
 ## Bookmark the schedule
 
-The [schedule](../../) contains a day-by-day breakdown of everything you need to know and do in this course.
+The [schedule](../../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
 
 ---
 
@@ -710,12 +734,14 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 # What to do now
 
-## Install Git
+## Install a shell
 
-Get git [for Mac](https://git-scm.com/downloads) or [Git for Windows](https://gitforwindows.org/).
-
-- Git for Windows additionally comes with Git Bash, which gives Windows users a UNIX-like command shell.
-- WINDOWS USERS - you should use Git Bash or Windows Subsystem for Linux (WSL) rather than Windows' default Powershell or other command line shell program. To set Git Bash or WSL as the default terminal shell within Visual Studio Code, you can try to follow the instructions in [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
+- Windows (WSL):
+ - [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+ - [Set VSCode to use WSL Bash](https://devblogs.microsoft.com/commandline/tips-and-tricks-for-linux-development-with-wsl-and-visual-studio-code/#setting-the-default-shell)
+- alternatively: Windows (Git)
+ - [Install Git for Windows](https://gitforwindows.org/).
+ - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
 - Mac users already have a UNIX command shell in the Terminal app.
 
 ---
@@ -737,7 +763,3 @@ name: conclusions
 ```python
 print("There's no reason to worry... {}".format("yet!"))
 ```
-
---
-
-- Thanks. Bye.

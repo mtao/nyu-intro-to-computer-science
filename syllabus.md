@@ -9,11 +9,15 @@ layout: page
 
 How to design algorithms to solve problems and how to translate these algorithms into working computer programs. Experience is acquired through projects in a high-level programming language. Intended primarily for computer science majors but also suitable for students of other scientific disciplines. Programming assignments.
 
+
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
 [GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check the #announcements channel [our Slack](#messaging) for any changes.
 
+### Textbook
+
+Introduction to Java Programming, Brief Version, 10th edition, by Y. Daniel Liang
 
 ## Learning objectives
 
@@ -103,11 +107,11 @@ frequently erased.
 
 You will receive a grade calculated mechanically on the following rubric.
 
-- 25% quizzes
-- 35% assignments
-- 10% first exam
-- 15% second exam
-- 15% third exam
+- 10% quizzes
+- 20% assignments
+- 20% first midterm
+- 20% second midterm
+- 30% final exam
 
 ### Quizzes
 
