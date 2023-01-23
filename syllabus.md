@@ -115,7 +115,7 @@ You will receive a grade calculated mechanically on the following rubric.
 
 ### Quizzes
 
-Quizzes are completed outside of class on Brightspace.
+Quizzes are completed outside of class on Brightspace and due by the date they are specified on the [schedule](/schedule).
 
 ### Assignments
 
