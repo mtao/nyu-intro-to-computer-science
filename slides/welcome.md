@@ -653,6 +653,7 @@ Tutors are waiting to answer your questions virtually all day every day of the w
 See them often. See them fast.
 
 Check the complete [tutoring schedule](../../syllabus).
+- Note: They will not be available for the first week or so
 
 ---
 
