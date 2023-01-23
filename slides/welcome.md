@@ -44,8 +44,8 @@ URL:
 https://cs.nyu.edu/courses/spring23/CSCI-UA.0101-009/
 
 
-- [Syllabus](../../syllabus)
-- [Schedule](../../schedule)
+- [Syllabus](./../syllabus)
+- [Schedule](./../schedule)
 
 
 
@@ -408,7 +408,7 @@ me = new Professor("Michael Tao")
 me.say_hello(you)
 ```
 
-Jump ahead half a semester to [object-oriented programming](../../slides/object-orientation)
+Jump ahead half a semester to [object-oriented programming](./../slides/object-orientation)
 
 ---
 
@@ -453,7 +453,7 @@ Can you answer these questions?
 
 Review:
 - [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
-- Chapter 1.1-1.4 in the [textbook](../../syllabus#textbook)
+- Chapter 1.1-1.4 in the [textbook](./../syllabus#textbook)
 - I will write release some notes before next lecture on the components of a computer.
 
 ---
@@ -513,7 +513,7 @@ data = [row1, row2, row3]
 print(data[1][2])
 ```
 
-Jump ahead half a semester to [multi-dimensional arrays](../../slides/arrays-multidimensional).
+Jump ahead half a semester to [multi-dimensional arrays](./../slides/arrays-multidimensional).
 
 ---
 
@@ -532,7 +532,7 @@ def foo(x):
 foo(1)
 ```
 
-Jump ahead almost a semester to [recursion](../../slides/recursion).
+Jump ahead almost a semester to [recursion](./../slides/recursion).
 
 ---
 
@@ -573,7 +573,7 @@ template: how-course-works
 [Amos Bloomberg](https://knowledge.kitchen) provides notes for most lecture
 topics. You may find them useful but incomplete.
 
-- The notes pertinent to any lecture are found on the [schedule](../../schedule).
+- The notes pertinent to any lecture are found on the [schedule](./../schedule).
 
 
 ---
@@ -582,7 +582,7 @@ template: how-course-works
 
 ## Slides
 
-Slides are available online on the [schedule](../../schedule), However, it
+Slides are available online on the [schedule](./../schedule), However, it
 should be treated like a Table of Contents. It is better to review documents
 and example code.
 
@@ -592,7 +592,7 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](../../syllabus) and elsewhere each
+Reading assignments from [the textbook](./../syllabus) and elsewhere each
 class. The textbook is quite thorough.
 
 ---
@@ -605,7 +605,7 @@ You will have somewhere around 10 assignments.
 
 You lose 10 points for each day late and we do not accept submissions more than 3 days late.
 
-See the complete [lateness policy](../../syllabus).
+See the complete [lateness policy](./../syllabus).
 
 ---
 
@@ -664,7 +664,7 @@ We use Slack for all communication outside of the classroom.
 
 You must create a private channel in Slack with your NYUID.
 
-Link can also be found on the [syllabus](../../syllabus#messaging).
+Link can also be found on the [syllabus](./../syllabus#messaging).
 
 ---
 
@@ -676,7 +676,7 @@ Tutors are waiting to answer your questions virtually all day every day of the w
 
 See them often. See them fast.
 
-Check the complete [tutoring schedule](../../syllabus).
+Check the complete [tutoring schedule](./../syllabus).
 - Note: They will not be available for the first week or so
 
 ---
@@ -689,7 +689,7 @@ Check the complete [tutoring schedule](../../syllabus).
 
 ## Review the syllabus
 
-The [syllabus](../../syllabus) contains basic information on how this course works.
+The [syllabus](./../syllabus) contains basic information on how this course works.
 
 ---
 
@@ -697,7 +697,7 @@ The [syllabus](../../syllabus) contains basic information on how this course wor
 
 ## Bookmark the schedule
 
-The [schedule](../../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
+The [schedule](./../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
 
 ---
 
