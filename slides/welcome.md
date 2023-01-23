@@ -677,17 +677,6 @@ The [schedule](../../) contains a day-by-day breakdown of everything you need to
 
 ---
 
-# What to do now
-
-## Complete the consent form
-
-Your consent is necessary since we use software that is not obliged to abide by the Family Educational Rights and Privacy Act.
-
-https://goo.gl/forms/uxxgA3D9F3kA0KAR2
-
-Contact me if you have concerns about privacy.
-
----
 
 # What to do now
 
