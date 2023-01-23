@@ -37,9 +37,20 @@ name: introductions-1
 ## This course
 
 Introduction to Computer Science
+<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>
 
-- Syllabus: [syllabus](../../syllabus)
-- Schedule: [schedule](../../schedule)
+URL: 
+
+https://cs.nyu.edu/courses/spring23/CSCI-UA.0101-009/
+
+
+- [Syllabus](../../syllabus)
+- [Schedule](../../schedule)
+
+
+
+
+
 
 ---
 
@@ -55,8 +66,10 @@ template: introductions
 
 ## Me (Michael Tao)
 
-![Mandoline](https://www.dgp.toronto.edu/projects/mandoline/teaser.png)
-![VEMPIC](https://www.dgp.toronto.edu/projects/vempic/teaser.png)
+michael.tao@nyu.edu
+
+<img src="https://www.dgp.toronto.edu/projects/mandoline/teaser.png" width=600\>
+<img src="https://www.dgp.toronto.edu/projects/vempic/teaser.png" width=600\>
 
 ---
 
@@ -547,7 +560,7 @@ template: how-course-works
 
 ## Slides
 
-Slides are available online on the [schedule](../../schedule), However, it
+Slides are available online on the [schedule](../schedule), However, it
 should be treated like a Table of Contents. It is better to review documents
 and example code.
 
@@ -557,7 +570,7 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](../../syllabus) and elsewhere each
+Reading assignments from [the textbook](../syllabus) and elsewhere each
 class. The textbook is quite thorough.
 
 ---
@@ -623,11 +636,11 @@ template: how-course-works
 
 ## Communication
 
-We use Dicord for all communication outside of the classroom.
+We use Slack for all communication outside of the classroom.
 
-You must create a private channel in Discord.
+You must create a private channel in Slack with your NYUID.
 
-Check the complete [Discord details](../../syllabus).
+Link can also be found on the [syllabus](/syllabus#messaging).
 
 ---
 

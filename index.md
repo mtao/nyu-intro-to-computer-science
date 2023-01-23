@@ -14,10 +14,13 @@ at its
 
 ## Resources
 
-* [Syllabus](syllabus)
-* [Schedule](schedule)
 The schedule also contains links to various course material, including slides
 and notes.
+
+* [Syllabus](syllabus)
+* [Schedule](schedule)
+* [Brightspace](https://brightspace.nyu.edu/d2l/home/247141)
+
 
 ## Attribution
 

@@ -5,13 +5,15 @@ layout: page
 
 # Syllabus
 
-Introduction to Computer Science<br />
-New York University<br />
-Department of Computer Science
-
 ## Course description
 
 How to design algorithms to solve problems and how to translate these algorithms into working computer programs. Experience is acquired through projects in a high-level programming language. Intended primarily for computer science majors but also suitable for students of other scientific disciplines. Programming assignments.
+
+### Lectures
+
+Lectures are held on Monday and Wednesday from 3:30-4:45 at
+[GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check the #announcements channel [our Slack](#messaging) for any changes.
+
 
 ## Learning objectives
 
@@ -33,7 +35,7 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Michael Tao<br />michael.tao@cs.nyu.edu<br />TBD
+Michael Tao<br />michael.tao@cs.nyu.edu<br />60 5th Ave, 5th floor
 
 ## Getting help
 
@@ -41,11 +43,12 @@ Help resources available to you are listed in order of urgency of your problem:
 
 ### Messaging
 
-Our course will use a message board (link to be distributed in class) as its main communication channel for announcements and discussion. This is a good place to ask questions that anyone - other students, graders, tutors, or the professor - can answer. This is a resource best used when the answer is not required urgently.
+Our course will use [Slack]({{ site.slack_link }}) as the main communication channel for announcements and discussion. One can join the server with [this link]({{ site.slack_link }}).  This is a good place to ask questions that anyone - other students, graders, or the professor - can answer. This is a resource best used when the answer is not required urgently.
+
 
 ### Tutoring
 
-Tutors for this course are waiting to answer your questions, either on our message board or during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
+Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
 
 Tutoring hours (all times in Eastern Time):
 
@@ -108,12 +111,11 @@ You will receive a grade calculated mechanically on the following rubric.
 
 ### Quizzes
 
-Quizzes are completed outside of class. You must be logged into Google with
-your NYU Net ID account in Google in order to view the Quizzes. If you see an
-error message indicating you do not have permission to view a Quiz, it is
-because you are not logged into the correct NYU Net ID account.
+Quizzes are completed outside of class on Brightspace.
 
-Quizzes are submitted by submitting a Google Form, i.e. click the `Submit` button.
+### Assignments
+
+Assignments are submitted through Brightspace.
 
 ### Late policy
 
