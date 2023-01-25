@@ -115,7 +115,7 @@ You will receive a grade calculated mechanically on the following rubric.
 
 ### Quizzes
 
-Quizzes are completed outside of class on Brightspace and due by the date they are specified on the [schedule](/schedule).
+Quizzes are completed outside of class on Brightspace and due by the date they are specified on the [schedule](./schedule).
 
 ### Assignments
 
@@ -123,7 +123,7 @@ Assignments are submitted through Brightspace.
 
 ### Late policy
 
-All assigned work is due _before_ class on the due date indicated on the [schedule](/schedule)
+All assigned work is due _before_ class on the due date indicated on the [schedule](./schedule)
 
 - for every 24 hours that work is late, we apply a 10% penalty on the grade, up
   to a maximum penalty of 30%.
