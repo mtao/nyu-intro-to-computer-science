@@ -47,9 +47,9 @@ name: hardware
 
 CPU
 
-Memory
 
 Storage
+- Memory
 - Drives
 
 Input
