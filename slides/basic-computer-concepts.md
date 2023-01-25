@@ -16,10 +16,10 @@ class: center, middle
   - [Hardware](#hardware)
   - [Operating Systems](#operating_systems)
   - [Applications](#applications)
-  - [Conclusions](#conclusion)
 1. [Desktop Analogy](#desktop_analogy)
   - Files and good practices
 1. [Networks](#networks)
+1. [Conclusions](#conclusion)
 
 ???
 
