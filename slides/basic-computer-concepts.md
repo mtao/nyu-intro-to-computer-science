@@ -12,10 +12,14 @@ class: center, middle
 
 # Agenda
 
+1. [Computers](#computers)
+  - [Hardware](#hardware)
+  - [Operating Systems](#operating_systems)
+  - [Applications](#applications)
+  - [Conclusions](#conclusion)
 1. [Desktop Analogy](#desktop_analogy)
-1. [Exception Handling](#handling)
-1. [Custom Exceptions](#custom)
-1. [Conclusions](#conclusions)
+  - Files and good practices
+1. [Networks](#networks)
 
 ???
 
@@ -23,6 +27,177 @@ Here is a quick outline of a minimal set of concepts which you must
 familiarize yourself with immediately in order to be ready to learn to
 be literate in usage of computers in general, not just for any given
 course.
+
+
+---
+
+
+## Computers
+
+Several levels:
+- Computer hardware
+- Operating system
+- Applications
+
+
+---
+
+name: hardware
+## Computer Hardware
+
+CPU
+
+Memory
+
+Storage
+- Drives
+
+Input
+- Mouse
+- Keyboard
+- Camera
+- Microphone
+
+Output
+- Video
+- Speakers/Headphones
+
+I/O
+- Network
+
+
+---
+
+## Busses
+
+
+Motherboard connect all of the components together via busses
+- Playstation 5 traces are quite nicely visible (from [here](https://twitter.com/austinnotduncan/status/1578764005350338560/photo/1))
+  - Most traces move between components and CPU
+  - Both sides visible [here](https://youtu.be/CaAY-jAjm0w?t=295)
+  - Interesting to look at [this teardown](https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280)
+
+<img src="https://pbs.twimg.com/media/FejleAtXkAEEiDz?format=jpg&name=4096x4096" width=600 />
+
+---
+
+
+## CPU
+Manages much of the data from busses
+- Controls memory
+- Can read and execute commands
+- Modern processors schedule commands between multiple cores
+
+<img src="https://pbs.twimg.com/media/FCvOcnYXIAInJhh?format=jpg&name=4096x4096" width=800/>
+
+---
+
+## Memory
+
+Data is stored in a complex sequence of switches called _bits_
+
+--
+
+Computers work 8 bits at a time called a _byte_
+- In many languages a "character" is 1 byte
+
+--
+
+It's the easiest place to store data in programs
+- Variables and "state" are typically stored in memory
+- CPUs have faster memory in "cache" (10x)
+  - but humans are bad at managing them
+- Drives can store much more, but are much slower (~1000x)
+
+Cache < Memory < Disk
+
+(numbers according to [Chandler Carruth in 2014](https://www.youtube.com/watch?v=fHNmRkzxHWs&t=2201))
+
+---
+
+## System-on-Chip
+
+Some computers combine parts together
+- Makes bus traces shorter
+<p><a href="https://commons.wikimedia.org/wiki/File:Apple_M1.jpg#/media/File:Apple_M1.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Apple_M1.jpg/1200px-Apple_M1.jpg" width="300" alt="Illustration of an M1 processor"></a><br>By &lt;a href="//commons.wikimedia.org/wiki/User:Henriok" title="User:Henriok"&gt;Henriok&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=96026688">Link</a></p>
+
+---
+## System-on-Chip
+
+Some computers combine parts together
+<img src="https://cdn.arstechnica.net/wp-content/uploads/2020/11/Mac-M1-diagram.png"/>
+<a href="https://arstechnica.com/gadgets/2020/11/apple-dishes-details-on-its-new-m1-chip/">ars technica</a>
+
+---
+
+name: operating_systems
+
+
+## Operating systems
+
+
+Sits between hardware and users
+- Handles data input / output
+- Schedules which software has access to different resources and when
+
+Most provide more or less the same "basic" functionality but can have different
+- code
+- ethical principles
+- communities
+
+---
+
+## Operating systems
+
+![](https://raw.githubusercontent.com/EG-tech/digipres-posters/master/OS_kernel_timeline.jpg)
+
+
+---
+
+## Applications
+
+Process data
+- Multimedia
+  - Input: file on disk/URL
+  - Output: display on screen or play through speakers
+- Games
+  - Input: keyboard/mouse inputs
+  - Output: display content to screen and audio through speakers
+- File decompression
+  - Input: file on disk
+  - Output: one or multiple files/directories on disk
+- Documents
+  - Input: file on disk + keyboard/mouse inputs
+  - Output: updated document
+
+
+---
+
+## Python example
+
+read from keyboard input
+```python
+input_file = input("What file should I open?")
+```
+request a representation for a file on the drive
+```python
+with open(input_file,"r") as in_fd:
+```
+transfer data from disk to memory
+```python
+    lines = in_fd.readlines()
+```
+```python
+    for line in lines:
+```
+modify the data in memory
+```python
+        line = line.lower()
+```
+output the data in memory to the screen
+```python
+        print(line)
+```
 
 
 ---
@@ -75,18 +250,20 @@ You'd be surprised howe much of computer science comes down to how to organize d
 
 ---
 
-## Hiding Folders
+## Hiding Folders in Modern Operating Systems
 
-- Searching for files in folders on a computer is slow
- - "Indexers" make searching for files extremely fast
-- Modern systems prioritize a search bar to find files
-- Files and folders still exist underneath 
+Searching for files in folders on a computer is slow
+-  "Indexers" make searching for files extremely fast
+
+Modern systems prioritize a search bar to find files
+
+Files and folders still exist underneath
 
 ---
 
 ## Types of files
 
-- We might think of there as being many types of files, associated with differenet applications
+We might think of there as being many types of files, associated with differenet applications
 
 <img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-address-book.svg" \>
 <img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-calendar.svg" \>
@@ -96,44 +273,90 @@ You'd be surprised howe much of computer science comes down to how to organize d
 <img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-presentation.svg" \>
 <img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/mimetypes/64/x-office-spreadsheet.svg" \>
 
-- Underneath, there are two fundamental kinds of files:
- - Text files
- - Binary files.
+Underneath, there are two fundamental kinds of files:
+- Text files
+- Binary files.
 
 --
-- Text files still use binary
+
+Text files still use binary
 
 ---
 ## Text files
 
-- Lines of human-readable characters, potentially separated into lines
-- "Plain"
- - No colors
- - No formatting (italics/bold/etc)
- - No images/media
-- Easy to manipulate with a wide variety of software
-  - Notepad
-  - VI/VIM/Neovim
-  - Sublime Text
-  - VSCode
-  - Eclipse
-- Writing software (source code) almost always involve manipulating text files.
+Lines of human-readable characters, potentially separated into lines
+"Plain"
+- No colors
+- No formatting (italics/bold/etc)
+- No images/media
+
+Writing software (source code) almost always involve manipulating text files.
+
+--
+
+Easy to manipulate with a wide variety of software
+
+---
+## Creating and editing text files
+
+Multi-platform
+- Visual Studio Code
+- [Vi](https://ex-vi.sourceforge.net/) ( [VIM](www.vim.org) , [NeoVim](neovim.io))
+- [Emacs](gnu.org/software/emacs) 
+- [Sublime Text](sublimetext.com) (free evaluation)
+- [QtCreator](www.qt.io/product/development-tools)
+
+Windows
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [Notepad++](https://notepad-plus-plus.org/)
+
+OSX
+- [XCode](developer.apple.com/xcode)
+- [TextMate](macromates.com)
+
+Language-specific
+- [JetBrains](jetbrains.com) products (IntelliJ IDEA, PyCharm, CLion, etc...)
+- [Eclipse](eclipse.org)
+
+... and many more
+
 
 ---
 
 ## Encoding Text Files
 
 - Text is "just" binary data
- - How do computers know what it means?
+  - How do computers know what it means?
 - Text files follow an encoding for what each character means
 - Commonly:
- - ASCII ('A' = 65 = 1000001, 'B' = 66 = 1000010)
- - UTF-8
+  - ASCII ('A' = 65 = 1000001, 'B' = 66 = 1000010)
+  - UTF-8
 - Other common encodings (that I haven't personally handled)
- - [link](https://en.wikipedia.org/wiki/Character_encoding#Common_character_encodings)
+  - [link](https://en.wikipedia.org/wiki/Character_encoding#Common_character_encodings)
 - Different computers define new lines differently
- - [link](https://en.wikipedia.org/wiki/Newline#Representation)
+  - [link](https://en.wikipedia.org/wiki/Newline#Representation)
 
+---
+
+## Examples of Text Files
+
+Source Code
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("hello!");
+    }
+}
+```
+json
+```json
+{
+    "class": "CSCI-UA-2022",
+    "professor": "Michael Tao",
+    "building": "GCASL",
+    "room": 275
+}
+```
 ---
 
 ## Binary files
@@ -153,113 +376,125 @@ You'd be surprised howe much of computer science comes down to how to organize d
   - Programs (.exe)
   - Microsoft Office files (.docx/.xlsx/.pptx)
 
+---
 
-## Creating and editing files
+## Surprising Example of a Text File
 
-### Code files are text files
+```xml
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 46" width="135" height="46">
+  <path class="cls-1" d="M57.88,9.71h5.28l12.26,16v-16H81V35.78H76.1L63.5,19.08v16.7H57.88Z"></path>
+  <path class="cls-1" d="M94,25.56l-10-15.85h6.64l6.3,10.56,6.3-10.56h6.46l-10,15.68V35.78H93.8V25.56Z"></path>
+  <path class="cls-1" d="M112.19,24.7v-15H118V24.53c0,4.26,2,6.48,5.61,6.48s5.62-2.05,5.62-6.31v-15H135V24.53c0,7.84-4.43,11.76-11.41,11.76C116.44,36.29,112.19,32.37,112.19,24.7Z"></path>
+  <path class="cls-1" d="M46,46H0V0H46V46ZM21.45,40.55c0,.34.68.51.85,0l1.53-12.78H19.92l1.53,12.78ZM25.2,26.92V25H18.56v1.88ZM23.32,24c8.34.34,9-7.32,9-10.22h0c-.17.68-1.37,2.73-4.43,4.09A7.38,7.38,0,0,0,23.32,24Zm-.85-.51c1.36-6.3,6.47-6.47,7-7.67.68-1.87-.68-5.28-1-5.62h-.17A11.15,11.15,0,0,1,25.54,14c-1,.85-5.45,4.26-3.07,9.54Zm-1,.34c-2.89-6,2.89-9.88,3.75-10.73.17-.17.17-.17.17-.34A15.55,15.55,0,0,0,24,7.33h-.17c-.51,1.87-3.06,4.6-3.57,5.28-4.43,5.11-3.41,8.35,1.19,11.24ZM20.26,24c-4.77-2.89-4.26-6.81-2.21-9.71V14a7.46,7.46,0,0,0-1.2-2.9c0-.17-.17-.17-.17,0,0,.86-1,2.9-2.38,5.12-1.36,2.38-1.36,7.66,6,7.83Z"></path>
+</svg>
+```
 
-Files for writing computer programs are usually created and edited on
-your personal computer. Text files, including any source code you write
-in a high level programming language, are created and edited using a
-simple [text editor](http://en.wikipedia.org/wiki/Text_editor), a
-program that deals exclusively with text files.
+--
 
-### Text editors edit only text
+<a href="https://nyu.edu"><img src="../../content/assets/nyu.svg" alt="drawing" width="250"/></a>
 
-Two good quality free to use text editors for Windows or Mac are
-[Sublime Text](https://www.sublimetext.com/) and [Visual Studio
-Code](https://code.visualstudio.com/).
+--
 
-An amazing free/libre text editor that comes pre-installed on most Unix
-and Linux machines is [emacs](https://www.gnu.org/software/emacs/).
-Another popular option for \*NIX machines is
-[vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
+```xml
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 46" width="135" height="46">
+  <path class="cls-1" d="M57.88,9.71h5.28l12.26,16v-16H81V35.78H76.1L63.5,19.08v16.7H57.88Z"></path>
+  <path class="cls-1" d="M94,25.56l-10-15.85h6.64l6.3,10.56,6.3-10.56h6.46l-10,15.68V35.78H93.8V25.56Z"></path>
+  <path class="cls-1" d="M112.19,24.7v-15H118V24.53c0,4.26,2,6.48,5.61,6.48s5.62-2.05,5.62-6.31v-15H135V24.53c0,7.84-4.43,11.76-11.41,11.76C116.44,36.29,112.19,32.37,112.19,24.7Z"></path>
+</svg>
+```
 
-The text editors that typically come with computers, such as Notepad on
-Windows and TextEdit on Mac, are generally not good quality text editors
-and should be avoided at all costs.
+<img src="../../content/assets/nyu_words.svg" alt="drawing" width="250"/>
 
-Word processing software like Microsoft Word and Apple Pages are not
-text editors at all - they write much more than plain text data into the
-files they save, including formatting instructions, image rendering
-data, and other non-text data.
+---
+
+
+
 
 ### Binary file editors
 
-The software used to create or edit binary files depends on the sub-type
-of binary file. For example, we typically use software such as [Adobe
-Photoshop]https://knowledge.kitchen/Category:Photoshop) or [Adobe
-Illustrator]https://knowledge.kitchen/Category:Illustrator) when dealing with image
-files and audio editing software such as
-[Audacity](https://knowledge.kitchen/Category:Audio) when editing audio files.
 
-## File names
+Images
+- Raster (Pixel-based)
+  - Photoshop (necessary for .psd files)
+  - Gimp
+  - Paint
+- Vector (line/curve based)
+  - Illustrator (necessary for .ai files)
+  - Inkscape
 
-In today's world of inter-networked computers, it's important to
-follow some basic 'lowest common denominator' file naming conventions
-to make sure your files work equally well on whatever type of computer
-they happen to be copied to.
+Microsoft Office files
+- Better buy Office
+- Reverse engineered in OpenOffice / Google Workspace / Apple Pages
+  - Occasional inconsistencies / issues
+  - Missing features
 
-**Capitalization**. File names are case-sensitive on \*NIX-based
-systems. Windows and Mac systems use filenames that are sometimes
-case-sensitive and sometimes not. So, as a general rule, it's best to
-assume that the capitalization of your file names is important. A file
-named **Foo.bar** is not the same file as one named **foo.bar** on most
-computers. So, as a general rule, do not use capital letters in your
-file names, except where absolutely necessary. End of story.
+PDF Files
+- Better use Adobe software
+- Reverse engineered in libpoppler (okular/evince) or OSX Preview 
+  - Occasional inconsistencies / issues
+  - Missing features
 
-**Spaces and special characters**. Operating systems are inconsistent in
-how they treat spaces. Even a single type of operating system will be
-inconsistent in how its different versions treat spaces in file names.
-Even a single computer may be inconsistent between how its GUI treats
-spaces vs. how its command-line shell treats spaces. For this reason, do
-not use spaces at all in the name of any file you make.
 
-The same applies to special characters. Besides alphabetic and numeric
-characters, do not use any special character except the underscore `_`
-character and the period `.` character.
+---
+
+## Good File Naming Conventions
+
+Try to use lowercase without spaces
+```bash
+file.zip
+file.Zip
+file.ZIP
+FiLe.ZiP
+```
+
+
+Avoid spaces in file names.
+```bash
+important_document.js less_important_document.txt # 2 files
+important document.js less important document.txt # 5 files?
+```
+--
+
+Or follow whatever <a href="https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats">conventions</a> your group, OS, or language uses.
+
+---
 
 ## File extensions
 
-As sophisticated computer users, we must always know the exact names of
-the files we are dealing with.
+How does your computer which software opens a file?
+```bash
+doc.docx
+doc.cpp
+doc.ai
+doc.pdf
+```
 
-A [file extension](http://en.wikipedia.org/wiki/Filename_extension) is
-simply a suffix attached to the name of a file. For example, an image
-file named "monkey" may have an extension named ".jpg" to indicate
-the sub-variety of image data that is stored in the file. So the
-complete file name, as far as the operating system is concerned, would
-be"monkey.jpg". UNIX, Windows, and Mac each support using file
-extensions. Recent versions of Windows and Mac OS X operating systems
-hide extensions from you by default. But be warned - the file extension
-might be there! To use a computer effectively, you must [change your
-operating system's settings so that file extensions are always
-visible](File_extension_settings_under_Windows_and_Mac).
+--
 
-The extension typically indicates to the operating system what type of
-data is in the file. So image files typically have ".jpg", ".gif",
-or ".png" extensions, which indicate the sort of binary image format
-which was used to create the image file. Text files written in HTML code
-typically have a ".html" or ".htm" file extension, and text files
-written in Java usually have a ".java" extension appended to their
-file name, etc.
+This is all a convention, it's up to software to detect inappropriate files
 
-### Default applications for file extensions
+```python
+for filename in ["doc.docx", "doc.cpp", "doc.ai", "doc.pdf"]:
+    with open(filename, "r") as fd
+        print(fd.readlines())
+```
 
-The operating system may be programmed to 'know' what to do with a
-file when it is double-clicked or executed based on this extension.
-However, what the operating system thinks is the correct action to take
-on a file when double-clicked is not necessarily the action you as an
-expert computer user will want it to take. So you should open files in
-the applications you deem correct, rather than accepting what the
-operating system thinks is correct.
+--
+
+Computer manages a list of default extensions
+
+---
 
 ## File permissions
 
-The file systems on all popular operating systems implement permissions
-that restrict who can read, write, and execute any given file or folder.
-In general, permissions are granted to three different classes of
-potential users:
+Computers are all designed by multiple "users"
+- The computer itself
+- Administrators
+- Normal users
+
+--
+
+Every file and folder controls who can read/write/execute a file
 
 - user: the user who 'owns' the file or folder... every file or
   folder is owned by one user
@@ -268,306 +503,115 @@ potential users:
 - others - everyone else not including the user or
   the group
 
-File permissions can be adjusted either through the options in the [file browsing application](#browsing-files)
-of an operating system's [Graphical User
-Interface](https://knowledge.kitchen/Popular_operating_systems_and_trends#Graphical_User_Interface),
-such the 'Properties' context menu in Windows Explorer on Windows or
-the 'Info' context menu in Finder on Mac, or [through the UNIX command
-line](https://knowledge.kitchen/Basic_UNIX/Linux_file_management#Change_permissions_of_any_file_or_directory).
 
-## Compressed files
+---
 
-There is often a need to reduce the size of files, meaning reducing the
-number of bits in them. This might be done in order to preserve limited
-hard-drive space, or to make files faster to download over a slow
-network connection. There are many different [compression
-algorithms](https://en.wikipedia.org/wiki/Data_compression) that are
-specialized for reducing the file size of specific kinds of files:
-images, videos, music, etc. And there are other algorithms that offer
-general-purpose compression that is pretty good for all types of files.
-Each of these algorithms takes the original file, compresses the data in
-it, and saves this new compressed data into a new file, usually adding a
-file extension that indicates which type of compression was used.
 
-Common compression formats:
 
-\- Zip files are one such type of general-purpose compressed type of
-file. It is capable of compressing many files and even folders into a
-single, smaller, file. This zipped file usually has the .zip file
-extension. Most [operating
-systems](https://knowledge.kitchen/Popular_operating_systems_and_trends) come built in
-with software to create zip files. - There are several very common
-compression formats for raster images published on the web, such as
-JPEG, GIF, and PNG. These usually have the file extensions .jpg, .gif,
-and .png, respectively. - Music is very often compressed using the
-mediocre MPEG 3 algorithm, leading to files with .mp3 file extensions. -
-Video compression formats include MPEG 4 (.mp4), Quicktime (.mov),
-Windows Media (.wmv), and many others.
+## The Environment
 
-### Lossy compression
+Software needs some context for how it should run
 
-In the process of reducing the amount of space the data takes, some
-compression algorithms will actually cut out and lose parts of the data.
-These are known as [lossy
-compression](https://wikipedia.org/Lossy_compression) formats. Lossy
-compression, by its nature, leads to a lower fidelity reproduction of
-the original data. Examples of lossy compression algorithms are MP3 and
-JPG and many other popular audio, video, and image compression formats.
+- Arguments
+  - The input data that the user provided
+  - Which input files/locations to open
+  - What data should be generated?
+  - Where/how should that be data stored?
 
-Lossy compression might be valuable when reducing file size is more
-important than maintaining fidelity. For example, an audio track
-streamed from web service to a consumer might use lossy compression to
-reduce the file size and increase the speed with which the user can
-download the audio to their own device. According to the research of
-[psychoacoustics](https://en.wikipedia.org/wiki/Psychoacoustics#Limits_of_perception),
-an audio track may contain audio data that a human is not possible of
-perceiving - this data can thus be safely removed, reducing the amount
-of data that needs to be transferred, without the risk of the human
-noticing the difference.
+--
 
-### Lossless compression
+- Working Directory
+  - Software is run from a particular directory for user convenience
+  - "Relative paths"
 
-In some cases, it is undesirable to lose any of the data in the original
-medium. In these cases, a variety of [lossless
-compression](https://wikipedia.org/Lossless_compression) algorithms are
-available. An example of a lossless compression format is the ZIP
-format. Zipping up files does not lose any of their data. PNG and GIF
-are lossless raster image compression formats, and many others in the
-world of audio, video, and image compression exist as well.
+--
 
-### Lossiness versus quality
+- Environment variables
+  - Other data that the user or operating system has set
+  - Which type of output is available
+  - what encoding data comes in
+  - what other software to use
 
-When it comes to audio, video, and imagery, where exact replicas of
-original content are not necessary, bear in mind that lossless
-compression, perhaps counterintuitively, does not always equate to
-higher quality. For example, converting a highly detailed image from a
-digital camera to a low bit-depth but lossless format, such as GIF, will
-always make the image appear lower quality than converting to a lossy
-but higher bit depth compression format, such as JPG. And removing data
-from a media file that is imperceptible from a human will not lead to a
-perceived loss of quality, whereas slower download of streaming video or
-audio leading to interruptions of the sound or video feed most certainly
-will.
 
-Conversely, when retaining the integrity of the data is of utmost
-importance, a lossless compression format is the only choice. For
-example, when sending files over a network from one computer to another,
-such as sharing a written document or a folder full of documents, a
-lossless compression such as ZIP, will always be preferable to lossy
-compression where some of the data gets lost along the way and the files
-become corrupted and unusable.
+---
 
-## Operating systems
+## Networks
 
-[Operating systems](https://knowledge.kitchen/Popular_operating_systems_and_trends)
-define the ways in which you, the human, access the resources available
-on a computer. And they also make sure that the hardware resources of
-the computer are shared nicely among all the different programs that are
-running. Personal computers generally have one of three flavors of
-operating system: Mac OS X, Windows, or a variety of UNIX/Linux
-(sometimes written collectively as \*NIX). Each provides more or less
-the same functionality for our purposes, but do so in slightly different
-ways.
+Modern computer usage errs away from files on disks
 
-If you ever become a software developer, you may have to deal, at some
-point, with each of these types of operating systems. Most web servers,
-which are the computers where you store websites, such as the computer
-which stores this site, run a variety of
-[UNIX](http://en.wikipedia.org/wiki/Unix). Most people who use the
-internet do so on personal computers running [Microsoft
-Windows](http://en.wikipedia.org/wiki/Microsoft_windows). Apple Macs,
-which are generally more expensive than Windows computers, use the
-operating system [OS X](http://en.wikipedia.org/wiki/Mac_OS_X), and are
-used by a small but significant minority or internet users, including a
-large proportion of design professionals. Most people accessing the
-internet on mobile devices use Google's [Android operating
-system](<https://wikipedia.org/Android_(operating_system)>), a variant of
-Linux, with most other mobile users having Apple's [iOS operating
-system](https://wikipedia.org/iOS), a variant of OS X.
+--
 
-The computer you are using right now to view this document is, I am 99%
-sure, a personal computer running Windows or OS X. If you"re, in fact,
-using UNIX or Linux right now, you are an unusual character.
+- Majority of computation is done on the internet
 
-## Applications
+--
 
-Applications are simply programs that depend upon on a particular
-operating system in order to be able to run. For example, Microsoft Word
-is an application that requires a specific operating system to run.
-There is a version of Microsoft Word for Mac OS X and another version of
-Microsoft Word for Windows 10. Since each operating system has a
-slightly different GUI and a slightly different way of handling the
-hardware resources of the computer, the applications have to be created
-with a specific operating system in mind in order to be able to take
-advantage of those features of the operating system.
+- How does that work?
 
-## Browsing files
 
-On your personal computers, you will often have to find the files you
-downloaded, created, or copied so that you can use them or edit them.
-Finding files (and losing them) is a big problem for the typical person,
-even those who use computers every day. But if you have organized your
-files into clearly labeled folders, and understand the structure of the
-computer"s file system, managing files will be a simple job.
-
-Finding files is basically the same, whether you are using Windows or
-Mac OS X. [Windows
-Explorer](http://en.wikipedia.org/wiki/Windows_Explorer) is the tool you
-use on a Windows PC. [Mac
-Finder](http://en.wikipedia.org/wiki/Finder_29) is the tool you use on a
-Mac OS X computer.
-
-Files are stored on a computer hierarchically. What this means is that
-files on the computer are organized in folders, and these folders can be
-put into other folders. Mac Finder illustrates this nicely:
-
-![Mac Finder shows the hierarchy of
-folders](./content/images/basics/Picture-1-300x127.png "Mac Finder shows the hierarchy of folders")
-
-In this screenshot of Mac Finder, you can see that each folder on a
-drive can contains several sub-folders, and those sub-folders can
-contain their own sub-folders. Files can be stored within any folder,
-even if that folder also contains other sub-folders as well.
-
-Windows Explorer looks very similar. All folders and files are nested
-inside of a drive just as in the Mac. Although it is less intuitive, the
-concept behind Windows Explorer is the same as with Mac Finder: it
-allows you to navigate through folders within folders within folders" a
-filing cabinet metaphor being stretched thin"
-
-## Opening files
-
-When you double-click a file on a standard computer, the operating
-system reads the file's extension, and uses that to determine which
-Application it should run in order to open the file you clicked on. In
-order to do this, the operating system keeps a mapping of which file
-extensions are used by each Application. For example, if you
-double-click a file ending in .docx, a computer that has Microsoft Word
-installed on it will most likely open that file in Microsoft Word,
-because the operating system has a mapping between the file extension
-.docx and the application Microsoft Word.
-
-Very often, as an educated computer user, you want to open a file in a
-different Application than what the operating system launches by
-default. The solution to this is simple - stop double-clicking files
-that you want to open! Rather, open the application that you want to use
-first. Then, from within that application, open the file you're
-interested in by using the application's File menu.
-
-## The working directory
-
-When browsing files on a hard drive, only one directory on your file
-system is being actively looked at at any given time. This is known as
-your "current working directory", or just "working directory". This
-is the case whether you are browsing the files on your hard drive using
-the command line, a graphical user interface, or a program you've
-written.
+---
 
 ## Clients and servers
 
-### in general
+Our computer ("client") prepares messages and sends it through cable or wifi to a remote destination according to an address.
+- https://google.com
+  - Protocol: https
+  - Location: google.com
 
-The terms "client" and "server" are often used to describe the roles
-of any two computers that are communicating with one-another on a
-network. A client computer requests data from a server computer. A
-server serves data to a client.
+--
 
-These roles can switch. A computer that is a client one minute, may
-become a server the next minute, and vice versa.
+A computer ("server") reads the message and returns an output message
+- contents of the webpage "https://google.com"
 
-![client and server](./content/images/basics/Client_and_server_diagram.png)
-
-### on the web
-
-Your personal computer, the one you use to browse the web and read this
-amazing site, is often called a
-'[client](http://en.wikipedia.org/wiki/Client_29)'. This term is used
-to differentiate your desktop computer or mobile device from the web
-'[servers](http://en.wikipedia.org/wiki/Server_29)' that permanently
-store the web pages (which are simply [text files](./text-files) with [ HTML
-code]https://knowledge.kitchen/Category:HTML) in them) that you visit.
-
-Web servers make the data stored on them available to the public by
-allowing any other computer to connect to them and ask for the files.
-Your personal computers probably don't give your files to anonymous
-creeps on the Internet (euphemistically called
-['others'](#file-permissions) internally on the server), so
-it does not usually act as a web server, although it could be set up as
-one.
-
-This website, like all other websites, consists of a bunch of data
-stored on a web server. Servers are computers dedicated to hosting and
-serving data when they are requested by clients. Thus the [World Wide
-Web](https://en.wikipedia.org/wiki/World_Wide_Web), at a high level, is
-composed of two types of computers: clients and servers.
-
-### hardware vs software clients
-
-The [software products you use to connect to
-servers](#Web_browsers) are also sometimes referred to as
-clients. Thus the term client can either refer to the computer you use
-to request data from a server, or the particular software product you
-use to do so, depending on the context of the conversation. The point
-being that the client is the "thing" you use to access the content
-available on the server.
-
-### uploading and downloading
-
-- Uploading is the transfer of data from a client to a server
-- Downloading is the transfer of data from a server to a client
-
-### A note about peer-to-peer networks
-
-There are some situations, such as with [Peer-to-peer file
-sharing](http://en.wikipedia.org/wiki/Peer-to-peer_file_sharing), where
-any given computer simultaneously acts as both client and server. Even
-in such circumstances, we generally talk about each computer as working
-either as a client or a server, depending on the context of the
-discussion.
-
-### in sum
-
-Servers "serve" files to clients. Clients request a particular web
-page file from the server, and the server responds with the contents of
-that file.
-
-![peer-to-peer](./content/images/basics/Peer_to_peer_network_diagram.png)
+---
 
 ## Web browsers
 
-A web browser is a piece of software that runs on the client computer.
-It allows the user of the client machine (i.e. _you_) to browse files
-(i.e. web pages) that are stored on web servers (i.e. computers)
-connected to the Internet and [made available to anyone to
-view](https://knowledge.kitchen/Basic_UNIX/Linux_file_management#Change_permissions_of_any_file_or_directory).
+Client for interacting with web data
+
+For a user:
+- Input: a URL / link, clicks a link, interacts with a webpage
+
+- Output: Visualizes web page data according to the action
+
+
+For a remote server:
+- Input: A request for a webpage
+- Output: Data required for visualizing a webpage [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) or
+HTTPS protocol.
+
+--
+
+This input/output relationship is complex due to programs that run in web browsers
+- Almost an operating system of its own (i.e Chrome OS)
+
+---
 
 ## The internet vs. the web
 
-The [internet](http://en.wikipedia.org/wiki/Internet) and the
-[web](http://en.wikipedia.org/wiki/World_Wide_Web) are two separate but
-related things.
+Just like binary files, html is just one encoding of data
+Internet transfers all sorts of data
 
-The "internet" refers to the global network of interconnected
-computers. It is the infrastructure that allows computers around the
-globe to communicate with each other.
 
-The "web" refers to the vast number of interlinking
-[hypertext](http://en.wikipedia.org/wiki/Hypertext) documents that exist
-on the internet. Thus the web generally refers to only those parts of
-the internet that are accessible via the
-[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) or
-HTTPS protocol.
 
-The web is just one usage of the internet, and HTTP is just one of many
-protocols supported by the internet. Other technologies that rely upon
-the internet but are not directly related to the web include email
-([IMAP](http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
+- ([IMAP](http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)
 and [POP](http://en.wikipedia.org/wiki/Post_Office_Protocol) protocols),
 file transfer
-([FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) and
-[SSH](http://en.wikipedia.org/wiki/Secure_Shell) protocols),
-[VoIP](http://en.wikipedia.org/wiki/Voice_over_Internet_Protocol),
+- ([FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) and [SSH](http://en.wikipedia.org/wiki/Secure_Shell) protocols),
+- [VoIP](http://en.wikipedia.org/wiki/Voice_over_Internet_Protocol),
 streaming media such as webcams and internet radio, and
-[P2P](http://en.wikipedia.org/wiki/Peer-to-peer) file sharing
-([RTP](http://en.wikipedia.org/wiki/Real-time_Transport_Protocol)
-protocol and other proprietary protocols), among others.
+- [P2P](http://en.wikipedia.org/wiki/Peer-to-peer) file sharing
+- ([RTP](http://en.wikipedia.org/wiki/Real-time_Transport_Protocol)
+protocol and other proprietary protocols)
+- etc
+
+
+---
+
+## Conclusion
+
+An idea for how components of a computer operate
+
+A more general view of what files on a computer are
+
+An overview of the internet through software
+
