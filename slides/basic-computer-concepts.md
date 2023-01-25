@@ -568,13 +568,13 @@ A computer ("server") reads the message and returns an output message
 
 Client for interacting with web data
 
-For a user:
+For a user on a client computer:
 - Input: a URL / link, clicks a link, interacts with a webpage
 
 - Output: Visualizes web page data according to the action
 
 
-For a remote server:
+For a remote server computer:
 - Input: A request for a webpage
 - Output: Data required for visualizing a webpage [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) or
 HTTPS protocol.
