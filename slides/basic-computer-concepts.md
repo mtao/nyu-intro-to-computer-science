@@ -613,5 +613,5 @@ An idea for how components of a computer operate
 
 A more general view of what files on a computer are
 
-An overview of the internet through software
+A brief overview of the internet connections
 
