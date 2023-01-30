@@ -36,7 +36,7 @@ name: assumptions
 In order to run Unix or Linux commands, you will need a terminal emulator:
 
 - OS X users already have the Terminal app we will use for this purpose.
-- Windows users must have [Git for Windows](https://gitforwindows.org/) installed.
+- Windows users must have [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) or [Git for Windows](https://gitforwindows.org/) installed.
 
 ---
 
@@ -54,7 +54,7 @@ Unix commands are necessary in order to be able to navigate directories/folders 
 
 - all Unix commands are run in the command-line interface, such as that offered by Terminal on OS X or Git Bash on Windows.
 
-Review [basic Unix commands](/slides/unix_intro.md).
+<!--Review [basic Unix commands](./unix-intro).-->
 
 ---
 
