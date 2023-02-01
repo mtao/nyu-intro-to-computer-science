@@ -22,7 +22,6 @@
   notes: '- [Java paradigm](./slides/java-paradigm)<br />- [Starter code](./slides/starter-code)'
   resources: '- Chapter 2<br />- [Java acronyms](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm#jre)'
   quiz: 'Unix'
-  exercise: 'Assignment 1:<br />- [Java Hello World](https://github.com/nyu-java-programming/github-classroom-practice-run-java) CHECK BRIGHTSPACE FOR SUBMISSION INSTRUCTIONS'
 
 - date: '2/6'
   number: 5
@@ -30,7 +29,7 @@
   notes: '[Branching](./slides/branching)'
   resources: '- Oracle tutorials: [Primitive data types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)<br />- [Decision-making example code](https://github.com/nyu-java-programming/decision-making-examples)'
   quiz: 'Java paradigm'
-  exercise: 'Assignment 2:<br />- Basic programming'
+  exercise: 'Assignment 1:<br />- [Java Hello World](https://github.com/nyu-java-programming/github-classroom-practice-run-java) CHECK BRIGHTSPACE FOR SUBMISSION INSTRUCTIONS'
     #exercise: 'Assignment 2:<br />- [Basic programming](https://classroom.github.com/a/MnroPSxI)'
 
 - date: '2/8'
@@ -39,6 +38,7 @@
   notes: '[Loops](./slides/loops)'
   resources: '- Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples)'
   quiz: 'Branching'
+  exercise: 'Assignment 2:<br />- Basic programming'
 
 - date: '2/13'
   number: 7
