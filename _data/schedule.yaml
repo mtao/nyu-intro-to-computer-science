@@ -38,7 +38,7 @@
   notes: '[Loops](./slides/loops)'
   resources: '- Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples)'
   quiz: 'Branching'
-  exercise: 'Assignment 2:<br />- Basic programming'
+  exercise: 'Assignment 2:<br />- [Basic programming](https://github.com/nyu-java-programming/basic-programming-assignment)'
 
 - date: '2/13'
   number: 7
@@ -46,8 +46,7 @@
   notes: '[Methods](./slides/methods)'
   resources: '- Chapter 6<br />- [Methods example code](https://github.com/nyu-java-programming/methods-examples)'
   quiz: 'Loops'
-  exercise: 'Assignment 3:<br />- Blackjack'
-    #exercise: 'Assignment 3:<br />- [Blackjack](https://classroom.github.com/a/ojikBwt5)'
+  exercise: 'Assignment 3:<br />- [Blackjack](https://github.com/nyu-java-programming/blackjack-exercise)'
 
 - date: '2/15'
   number: 8
@@ -69,8 +68,7 @@
   notes: ''
   resources: ''
   quiz: ''
-  exercise: 'Assignment 4:<br />- Text analysis'
-  #exercise: 'Assignment 4:<br />- [Text analysis](https://classroom.github.com/a/mkQ8J87J)'
+  exercise: 'Assignment 4:<br />- [Text analysis](https://github.com/nyu-java-programming/text-analysis-exercise)'
 
 - date: '2/27'
   number: 11
