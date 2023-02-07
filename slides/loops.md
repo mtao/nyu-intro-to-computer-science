@@ -311,6 +311,77 @@ System.out.println("The total is " + total);
 
 ---
 
+name: controlFlow
+# Flow Control in Loops
+
+--
+
+What if we want to change how a loop begins in the middle of its body?
+
+```java
+boolean stop = false;
+Scanner scn = new Scanner(System.in);
+while(!stop) {
+    String input = scn.nextLine();
+    if(input.length > 0) {
+        if(input.equals("exit")) {
+            stop = true; 
+        } else {
+            processInput(input);
+            doThings();
+            etc();
+        }
+    }
+}
+```
+
+---
+template: controlFlow
+
+We can use continue to skip empty inputs
+
+```java
+boolean stop = false;
+Scanner scn = new Scanner(System.in);
+while(!stop) {
+    String input = scn.nextLine();
+    if(input.length == 0) {
+        continue;
+    }
+    if(input.equals("exit")) {
+        stop = true; 
+    } else {
+        processInput(input);
+        doThings();
+        etc();
+    }
+}
+```
+
+---
+template: controlFlow
+
+We can use break to exit the loop immediately
+
+```java
+Scanner scn = new Scanner(System.in);
+while(true) {
+    String input = scn.nextLine();
+    if(input.length == 0) {
+        continue;
+    }
+    if(input.equals("exit")) {
+        break;
+    }
+
+    processInput(input);
+    doThings();
+    etc();
+}
+```
+
+---
+
 name: conclusions
 
 # Conclusions
