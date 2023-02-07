@@ -54,9 +54,8 @@ Our course will use [Slack]({{ site.slack_link }}) as the main communication cha
 
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
 
-Tutoring hours (all times in Eastern Time):
-
-- TBD
+- [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
+- [Information](./content/assets/cs101_tutoring_info.pdf)
 
 ### Talk with the instructor
 
