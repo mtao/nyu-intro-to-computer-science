@@ -54,14 +54,14 @@
   resources: '- Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples)'
   quiz: 'Methods'
 
-- date: '2/20'
+- date: '2/22'
   number: 9
   topics: 'Review'
   notes: ''
   resources: ''
   quiz: 'Arrays'
 
-- date: '2/22'
+- date: '2/27'
   number: 10
   topics: 'Review (continued)'
   notes: ''
@@ -69,30 +69,30 @@
   quiz: ''
   exercise: 'Assignment 4:<br />- [Text analysis](https://github.com/nyu-java-programming/text-analysis-exercise)'
 
-- date: '2/27'
+- date: '3/1'
   number: 11
   topics: 'Midterm Exam #1'
 
-- date: '3/1'
+- date: '3/6'
   number: 12
   topics: '- Multidimensional arrays<br />- Documenting source code'
   notes: '- [Multidimensional arrays](./slides/arrays-multidimensional)<br />- [Javadoc](./javadoc)'
   resources: '- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples)'
 
-- date: '3/6'
+- date: '3/8'
   number: 13
   topics: 'Midterm Exam #1 post-mortem'
   notes: ''
   resources: ''
   quiz: 'Multidimensional arrays'
 
-- date: '3/8'
+- date: '3/20'
   number: 14
   topics: 'Object-oriented programming (OOP)'
   notes: '[Object orientation](./slides/object-orientation)'
   resources: '- Chapter 9<br />- [Object orientation example code](https://github.com/nyu-java-programming/simple-object-examples)'
 
-- date: '3/20'
+- date: '3/22'
   number: 15
   topics: 'OOP (continued)'
   notes: ''
@@ -101,14 +101,14 @@
   exercise: 'Assignment 5:<br />- Open data'
     #exercise: 'Assignment 5:<br />- [Open data](https://classroom.github.com/a/-L_DvnSA)'
 
-- date: '3/22'
+- date: '3/27'
   number: 16
   topics: 'Strings'
   notes: '[Strings and related classes](./slides/strings-as-objects)'
   resources: '- Chapter 4<br />- [Strings basic example code](https://github.com/nyu-java-programming/string-examples)<br />- [Text alignment example code](https://github.com/nyu-java-programming/text-alignment)'
   quiz: 'Object orientation'
 
-- date: '3/27'
+- date: '3/29'
   number: 17
   topics: 'Processing'
   notes: '[Processing](./slides/processing)'
@@ -117,20 +117,20 @@
   exercise: 'Assignment 6:<br />- Virtual moped'
     #exercise: 'Assignment 6:<br />- [Virtual moped](https://classroom.github.com/a/lzJgPwQX)'
 
-- date: '3/29'
+- date: '4/3'
   number: 18
   topics: 'Inheritance'
   notes: '[Inheritance](./slides/inheritance)'
   resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
   quiz: '[Processing framework](https://forms.gle/KjczGWA5FN9nBcqV7)'
 
-- date: '4/3'
+- date: '4/5'
   number: 19
   topics: 'Processing (continued)'
   notes: ''
   resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)'
 
-- date: '4/5'
+- date: '4/10'
   number: 20
   topics: 'Review'
   notes: 'Midterm Exam 2 review'
@@ -140,31 +140,31 @@
   exercise: 'Assignment 7:<br />- Game development'
     #exercise: 'Assignment 7:<br />- [Game development](https://classroom.github.com/a/C8ETtM6F)'
 
-- date: '4/10'
+- date: '4/12'
   number: 21
   topics: 'Review (continued)'
 
-- date: '4/12'
+- date: '4/17'
   number: 22
   topics: 'Midterm Exam #2'
 
-- date: '4/17'
+- date: '4/19'
   number: 23
   topics: 'Interfaces'
   notes: '[Interfaces](./slides/interfaces)'
   resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
 
-- date: '4/19'
+- date: '4/24'
   number: 24
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
   resources: '- Chapter 13<br />- [Abstract classes example code](https://github.com/nyu-java-programming/abstract-classes-examples)'
 
-- date: '4/24'
+- date: '4/26'
   number: 25
   topics: 'Midterm Exam #2 post-mortem'
 
-- date: '4/26'
+- date: '5/1'
   number: 26
   topics: 'Exception handling'
   notes: '[Exception handling](./slides/exception-handling)'
@@ -173,14 +173,14 @@
   exercise: 'Assignment 8:<br />- Interfaces and abstract classes'
     #exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
 
-- date: '5/1'
+- date: '5/3'
   number: 27
   topics: 'Recursion'
   notes: '[Recursion](./slides/recursion)'
   resources: '- Chapter 18<br />- [Recursion example code](https://github.com/nyu-java-programming/recursion-examples)'
   quiz: 'Exceptions'
 
-- date: '5/3'
+- date: '5/8'
   number: 28
   topics: 'Review'
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
