@@ -159,7 +159,7 @@ Both files and directories may be hidden by naming them prefixed with a period,`
 To view a listing of files and directories including metadata about each item, use the `l` flag on the `ls` command.
 
 ```bash
-foo@bar$ ls -a
+foo@bar$ ls -l
 drwx------+ 10 foo  bar   320 Sep  4 10:41 dir1
 drwx------+ 19 foo  bar   608 Aug 30 21:38 dir2
 drwx------+  8 foo  bar   256 Nov 27  2017 dir3
