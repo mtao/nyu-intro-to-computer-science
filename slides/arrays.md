@@ -223,7 +223,7 @@ int[] arrVar = {134, 5, 3636, 34, 8};
 int startIndex = 1;
 int endIndex = 4;
 Arrays.sort(arrVar, startIndex, endIndex);
-// arrVar now holds {134, 34, 3636, 8}
+// arrVar now holds {134, 5, 34, 3636, 8}
 ```
 
 ---
