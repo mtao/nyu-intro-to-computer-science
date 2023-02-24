@@ -183,7 +183,7 @@ foo@bar$ ls -la
 ## What does all that metadata mean?
 
 ```bash
-foo@bar$ ls -a
+foo@bar$ ls -l
 drwx------+ 10 foo  bar   320 Sep  4 10:41 dir1
 drwx------+ 19 foo  bar   608 Aug 30 21:38 dir2
 drwx------+  8 foo  bar   256 Nov 27  2017 dir3
