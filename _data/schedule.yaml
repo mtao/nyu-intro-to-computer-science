@@ -98,8 +98,7 @@
   notes: ''
   resources: ''
   quiz: ''
-  exercise: 'Assignment 5:<br />- Open data'
-    #exercise: 'Assignment 5:<br />- [Open data](https://classroom.github.com/a/-L_DvnSA)'
+  exercise: 'Assignment 5:<br />- [Open data](https://github.com/nyu-java-programming/open-data-exercise)
 
 - date: '3/22'
   number: 16
