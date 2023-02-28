@@ -26,7 +26,7 @@ blockquote {
 }
 
 code {
-  background: #272822;
+  background: #dddddd;
   border-radius: 5px;
 }
 
@@ -52,7 +52,6 @@ img {
 .remark-inline-code {
   padding-left: 10px;
   padding-right: 10px;
-  color: #fadf68;
 }
 
 /* CUSTOM STYLES FOR BREADCRUMB */

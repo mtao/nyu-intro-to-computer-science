@@ -15,6 +15,10 @@ How to design algorithms to solve problems and how to translate these algorithms
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
 [GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check the #announcements channel [our Slack](#messaging) for any changes.
 
+
+### Office Hours
+Office hours are from 1pm to 2pm on Tuesdays and Wednesdays at room 502 in [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.
+
 ### Textbook
 
 Introduction to Java Programming, Brief Version, 10th edition, by Y. Daniel Liang
