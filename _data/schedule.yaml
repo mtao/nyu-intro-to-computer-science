@@ -113,8 +113,8 @@
   notes: '[Processing](./slides/processing)'
   resources: '[Processing basic example code](https://github.com/nyu-java-programming/processing-basic-example)'
   quiz: 'String and related classes'
-  exercise: 'Assignment 6:<br />- Virtual moped'
-    #exercise: 'Assignment 6:<br />- [Virtual moped](https://classroom.github.com/a/lzJgPwQX)'
+    #exercise: 'Assignment 6:<br />- Virtual moped'
+  exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
 
 - date: '4/3'
   number: 18

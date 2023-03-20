@@ -17,7 +17,7 @@ Lectures are held on Monday and Wednesday from 3:30-4:45 at
 
 
 ### Office Hours
-Office hours are from 1pm to 2pm on Tuesdays and Wednesdays at room 502 in [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.
+Office hours are from 3pm to 4pm on Tuesdays and 1pm to 2pm on Wednesdays at room 502 in [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.
 
 ### Textbook
 
