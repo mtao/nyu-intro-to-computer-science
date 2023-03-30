@@ -121,7 +121,7 @@
   topics: 'Inheritance'
   notes: '[Inheritance](./slides/inheritance)'
   resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
-  quiz: '[Processing framework](https://forms.gle/KjczGWA5FN9nBcqV7)'
+  quiz: 'Processing framework'
 
 - date: '4/5'
   number: 19
@@ -136,8 +136,8 @@
     #notes: '[Exam 2 review](./slides/exam-2-review)'
   resources: ''
   quiz: 'Inheritance and polymorphism'
-  exercise: 'Assignment 7:<br />- Game development'
-    #exercise: 'Assignment 7:<br />- [Game development](https://classroom.github.com/a/C8ETtM6F)'
+    # exercise: 'Assignment 7:<br />- Game development'
+  exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
 
 - date: '4/12'
   number: 21
