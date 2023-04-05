@@ -99,7 +99,7 @@ numbers[1][2] = 11;
 The entire inner array can also be replaced with a different one.
 
 ```java
-numbers[1] = { 13, 12, 11 };
+numbers[1] = new int[]{ 13, 12, 11 };
 ```
 
 ---
