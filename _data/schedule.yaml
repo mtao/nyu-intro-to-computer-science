@@ -129,7 +129,7 @@
   number: 19
   topics: 'Processing (continued)'
   notes: ''
-  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)"
+  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)'
   quiz: 'Processing framework'
 
 - date: '4/10'
