@@ -127,7 +127,7 @@
   number: 19
   topics: 'Processing (continued)'
   notes: ''
-  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)'
+  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)"
 
 - date: '4/10'
   number: 20
