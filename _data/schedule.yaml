@@ -109,25 +109,28 @@
 
 - date: '3/29'
   number: 17
-  topics: 'Processing'
-  notes: '[Processing](./slides/processing)'
-  resources: '[Processing basic example code](https://github.com/nyu-java-programming/processing-basic-example)'
+  topics: 'Inheritance'
+  notes: '[Inheritance](./slides/inheritance)'
+  resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
   quiz: 'String and related classes'
     #exercise: 'Assignment 6:<br />- Virtual moped'
   exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
 
 - date: '4/3'
   number: 18
-  topics: 'Inheritance'
-  notes: '[Inheritance](./slides/inheritance)'
-  resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
+
+  topics: 'Processing'
+  notes: '[Processing](./slides/processing)'
+  resources: '[Processing basic example code](https://github.com/nyu-java-programming/processing-basic-example)'
   quiz: 'Processing framework'
+  exercise: 'Midterm Java Resubmissions:<br />- [Midterm1.zip](./content/assets/midterm_for_students.zip)'
 
 - date: '4/5'
   number: 19
   topics: 'Processing (continued)'
   notes: ''
   resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)"
+  quiz: 'Processing framework'
 
 - date: '4/10'
   number: 20
