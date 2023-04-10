@@ -14,7 +14,6 @@ Intro to Computer Science
 
 # Agenda
 
-1. [Exam Structure](#structure)
 1. [ArrayList](#arraylist)
 1. [Multidimensional Arrays](#multidimensional-arrays)
 1. [Object-Oriented Programming](#oop)
@@ -33,47 +32,6 @@ name: structure
 
 --
 
-## Overview
-
-The exam will take place during class time. It will be composed of two parts:
-
-1. Google Form Quiz (40%)
-1. GitHub Assignment (60%)
-
----
-
-template: structure
-
-## Accepting the Exam
-
-Students **must** accept the exam by...
-
-1. Clicking the link provided by the instructor to the Google Form.
-1. Clicking the link provided by the instructor to the GitHub Assignment, and following the instructions therein to "accept" the assignment.
-
----
-
-template: structure
-
-## Submitting the Exam
-
-Students **must** submit the exam by the end of the exam period.
-
-1. Click the Submit button on the Google Form.
-1. `push` the GitHub Assignment code to GitHub.
-
----
-
-template: structure
-
-## Verifying Your Submission
-
-Students **must** verify on your own that you have actually submitted the exam.
-
-1. See the confirmation message on the Google Quiz after clicking submit.
-1. Click the link provided by the instructor to the GitHub Assignment, and verifying that your code has been pushed to the repository.
-
----
 
 name: arraylist
 
@@ -121,7 +79,6 @@ name: #oop
 
 Basic object-oriented programming
 
-- Classes are a sort of representation of Platonic idealism and a solution to the metaphysical problem of universals.
 - Classes are essentially custom data types.
 - Classes are reference types in Java.
 - Objects are instances of a class.
@@ -131,24 +88,9 @@ Basic object-oriented programming
 - Static methods and properties
 - Instantiating an object
 
----
-
-name: pillars
-
-# Pillars
 
 --
 
-## Main themes
-
-The **4 pillars** of object-oriented programming theory:
-
-- abstraction
-- encapsulation
-- inheritance
-- polymorphism
-
----
 
 name: patterns
 
@@ -181,7 +123,6 @@ name: strings
 - because different objects are stored at different locations in memory, compare the value of two `String` objects with its custom `.equals()` method, not `==`.
 - `String` is designed following the principle of object-oriented abstraction (e.g. `.length()` rather than `.length`)
 - Encapsulated within every `String` is a `char` array.
-- Because `String` has been designed to be immutable and quite limited, a variety of helper classes exist to work around that (e.g. `StringBuilder`, Apache Commons Lang's `StringUtils`, etc)
 
 ---
 
