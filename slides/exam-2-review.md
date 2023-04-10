@@ -89,14 +89,13 @@ Basic object-oriented programming
 - Instantiating an object
 
 
---
+---
 
 
 name: patterns
 
 # Patterns
 
---
 
 ## Main themes:
 
