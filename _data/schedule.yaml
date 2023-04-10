@@ -135,9 +135,8 @@
 - date: '4/10'
   number: 20
   topics: 'Review'
-  notes: 'Midterm Exam 2 review'
-    #notes: '[Exam 2 review](./slides/exam-2-review)'
-  resources: ''
+  notes: '[Exam 2 review](./slides/exam-2-review)'
+  resources: '[Practice](./content/assets/midterm2practice.pdf)'
   quiz: 'Inheritance and polymorphism'
     # exercise: 'Assignment 7:<br />- Game development'
   exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
