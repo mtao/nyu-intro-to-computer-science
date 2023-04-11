@@ -151,7 +151,7 @@ Polymorphism goes hand-in-hand with inheritance.
 - e.g., if `B` inherits from `A`, then a `B` object can be referred to as both a `B` and an `A` object.
 - can be useful when storing objects of a variety of child types into a single array typed as the parent type.
 - that allows you to easily loop through them all.
-- `typeof` operator allows you to check whether an object is of a given type.
+- `instanceof` operator allows you to check whether an object is of a given type.
 
 ---
 
