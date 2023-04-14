@@ -136,7 +136,7 @@
   number: 20
   topics: 'Review'
   notes: '[Exam 2 review](./slides/exam-2-review)'
-  resources: '[Practice](./content/assets/midterm2practice.pdf)'
+  resources: '[Practice](./content/assets/midterm2practice.pdf) <br />Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
   quiz: 'Inheritance and polymorphism'
     # exercise: 'Assignment 7:<br />- Game development'
   exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
