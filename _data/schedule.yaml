@@ -171,8 +171,8 @@
   notes: '[Exception handling](./slides/exception-handling)'
   resources: '- Chapter 12<br />- [Exceptions example code](https://github.com/nyu-java-programming/exceptions-examples)'
   quiz: 'Interfaces and abstract classes'
-  exercise: 'Assignment 8:<br />- Interfaces and abstract classes'
-    #exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
+    #exercise: 'Assignment 8:<br />- Interfaces and abstract classes'
+  exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://github.com/nyu-java-programming/interface-exercise)'
 
 - date: '5/3'
   number: 27
