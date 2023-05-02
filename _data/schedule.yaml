@@ -187,6 +187,6 @@
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
   resources: ''
   quiz: ''
-  exercise: 'Assignment 9:<br />- Recursion'
-    #exercise: 'Assignment 9:<br />- [Recursion](https://classroom.github.com/a/pPKqGy5S)<br /><br />**No late assignments accepted past this date**'
+  exercise: 'Assignment 9:<br />- [Recursion](https://github.com/nyu-java-programming/recursion-exercise)<br /><br />**No late assignments accepted past this date**'
+    
 
