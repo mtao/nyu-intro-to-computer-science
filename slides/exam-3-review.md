@@ -33,45 +33,8 @@ name: structure
 
 ## Overview
 
-The exam will take place during class time. It will be composed of two parts:
-
-1. Google Form Quiz (40%)
-1. GitHub Assignment (60%)
-
----
-
-template: structure
-
-## Accepting the Exam
-
-Students **must** accept the exam by...
-
-1. Clicking the link provided by the instructor to the Google Form.
-1. Clicking the link provided by the instructor to the GitHub Assignment, and following the instructions therein to "accept" the assignment.
-
----
-
-template: structure
-
-## Submitting the Exam
-
-Students **must** submit the exam by the end of the exam period.
-
-1. Click the Submit button on the Google Form.
-1. `push` the GitHub Assignment code to GitHub.
-
----
-
-template: structure
-
-## Verifying Your Submission
-
-Students **must** verify on your own that you have actually submitted the exam.
-
-1. See the confirmation message on the Google Quiz after clicking submit.
-1. Click the link provided by the instructor to the GitHub Assignment, and verifying that your code has been pushed to the repository.
-
----
+The exam will take place during class time in person on paper
+. It will be composed of two parts:
 
 name: prior-knowledge
 
