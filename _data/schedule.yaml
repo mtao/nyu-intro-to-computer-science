@@ -181,7 +181,7 @@
   number: 27
   topics: 'Review'
   notes: ''
-  resources: '[Practice](./content/assets/final_practice.pdf) <br />[Cheat Sheet](./content/assets/final/CheatSheet.java)'
+  resources: '[Practice](./content/assets/final_practice.pdf) <br />[Cheat Sheet](./content/assets/finalCheatSheet.java)'
   quiz: ''
   exercise: ''
     
