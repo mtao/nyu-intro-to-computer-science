@@ -43,15 +43,11 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Michael Tao<br />michael.tao@cs.nyu.edu<br />60 5th Ave, 5th floor
+Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor
 
 ## Getting help
 
 Help resources available to you are listed in order of urgency of your problem:
-
-### Messaging
-
-Our course will use [Slack]({{ site.slack_link }}) as the main communication channel for announcements and discussion. One can join the server with [this link]({{ site.slack_link }}).  This is a good place to ask questions that anyone - other students, graders, or the professor - can answer. This is a resource best used when the answer is not required urgently.
 
 
 ### Tutoring
@@ -122,7 +118,7 @@ Quizzes are completed outside of class on Brightspace and due by the date they a
 
 ### Assignments
 
-Assignments are submitted through Brightspace.
+Assignments are submitted through Brightspace using Gradescope.
 
 ### Late policy
 
