@@ -13,7 +13,8 @@ How to design algorithms to solve problems and how to translate these algorithms
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
-[GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
+251 Mercer St (Warren Weaver) Room 101
+, but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
 
 ### Office Hours
