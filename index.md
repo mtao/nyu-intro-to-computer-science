@@ -19,7 +19,7 @@ and notes.
 
 * [Syllabus](syllabus)
 * [Schedule](schedule)
-* [Brightspace](https://brightspace.nyu.edu/d2l/home/247141)
+* [Brightspace]( {{ site.brightspace_url }} )
 
 
 ## Attribution

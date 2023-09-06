@@ -41,7 +41,7 @@ Introduction to Computer Science
 
 URL: 
 
-https://cs.nyu.edu/courses/spring23/CSCI-UA.0101-009/
+https://cs.nyu.edu/courses/fall23/CSCI-UA.0101-007/
 
 
 - [Syllabus](./../syllabus)
@@ -146,7 +146,7 @@ template: know-knew
 There are many ways to input and output data from / to external sources.
 
 ```python
-response = input("What's brown and sticky?")
+response = input("What does CS stand for?")
 ```
 
 ```python
@@ -380,7 +380,7 @@ if (x < 10 and y == true) {
 
 --
 
-Just change "and" to "||"
+Just change "and" to "&&"
 
 ---
 
@@ -572,7 +572,7 @@ template: how-course-works
 [Amos Bloomberg](https://knowledge.kitchen) provides notes for most lecture
 topics. You may find them useful but incomplete.
 
-- The notes pertinent to any lecture are found on the [schedule](./../schedule).
+- The notes pertinent to any lecture are found on the [schedule](./../../schedule).
 
 
 ---
@@ -581,7 +581,7 @@ template: how-course-works
 
 ## Slides
 
-Slides are available online on the [schedule](./../schedule), However, it
+Slides are available online on the [schedule](./../../schedule), However, it
 should be treated like a Table of Contents. It is better to review documents
 and example code.
 
@@ -591,7 +591,7 @@ template: how-course-works
 
 ## Reading
 
-Reading assignments from [the textbook](./../syllabus) and elsewhere each
+Reading assignments from [the textbook](./../../syllabus) and elsewhere each
 class. The textbook is quite thorough.
 
 ---
@@ -604,7 +604,7 @@ You will have somewhere around 10 assignments.
 
 You lose 10 points for each day late and we do not accept submissions more than 3 days late.
 
-See the complete [lateness policy](./../syllabus).
+See the complete [lateness policy](./../../syllabus).
 
 ---
 
@@ -659,11 +659,12 @@ template: how-course-works
 
 ## Communication
 
-We use Slack for all communication outside of the classroom.
 
-You must create a private channel in Slack with your NYUID.
+1. Brightspace Discussions
+1. Tutoring
+1. Meet before/after class
+1. Email me
 
-Link can also be found on the [syllabus](./../syllabus#messaging).
 
 ---
 
@@ -675,7 +676,7 @@ Tutors are waiting to answer your questions virtually all day every day of the w
 
 See them often. See them fast.
 
-Check the complete [tutoring schedule](./../syllabus).
+Check the complete [tutoring schedule](./../../syllabus).
 - Note: They will not be available for the first week or so
 
 ---
@@ -688,7 +689,7 @@ Check the complete [tutoring schedule](./../syllabus).
 
 ## Review the syllabus
 
-The [syllabus](./../syllabus) contains basic information on how this course works.
+The [syllabus](./../../syllabus) contains basic information on how this course works.
 
 ---
 
@@ -696,18 +697,18 @@ The [syllabus](./../syllabus) contains basic information on how this course work
 
 ## Bookmark the schedule
 
-The [schedule](./../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
+The [schedule](./../../schedule) contains a day-by-day breakdown of everything you need to know and do in this course.
 
 ---
 
 
 # What to do now
 
-## Download and JDK version 8
+## Download and JDK
 
-The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE). We use the older version 8 because it is compatible with [Processing](https://processing.org), which we will use later in this course, whereas Processing is not compatible with newer versions of the JDK.
+The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE).
 
-https://www.oracle.com/java/technologies/downloads/#java8
+https://www.oracle.com/java/technologies/downloads/
 
 ---
 

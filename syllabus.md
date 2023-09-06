@@ -13,11 +13,12 @@ How to design algorithms to solve problems and how to translate these algorithms
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
-[GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check the #announcements channel [our Slack](#messaging) for any changes.
+[GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
 
 ### Office Hours
-Office hours are from 3pm to 4pm on Tuesdays and 1pm to 2pm on Wednesdays at room 502 in [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.
+Office hours are to be determined.
+[](, but they will be on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.)
 
 ### Textbook
 
@@ -49,6 +50,9 @@ Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor
 
 Help resources available to you are listed in order of urgency of your problem:
 
+### Brightspace Discussions
+Try asking a question using Brightspace Discussions. Maybe others have had the same issue.
+The instructor will be periodically checking the Discussions as well and will answer questions when appropriate.
 
 ### Tutoring
 
@@ -114,11 +118,11 @@ You will receive a grade calculated mechanically on the following rubric.
 
 ### Quizzes
 
-Quizzes are completed outside of class on Brightspace and due by the date they are specified on the [schedule](./schedule).
+Quizzes are completed outside of class on [Brightspace]({{ site.brightspace_url }}) and due by the date they are specified on the [schedule](./schedule).
 
 ### Assignments
 
-Assignments are submitted through Brightspace using Gradescope.
+Assignments are posted on Brightspace and submitted through Brightspace using Gradescope.
 
 ### Late policy
 
@@ -147,12 +151,6 @@ last day of regular classes before the final exam period.
 If a student requests a regrade of any work, we will regrade the work in full,
 not just the part that the student believes has been mis-graded.
 
-## Inspirational quote
-
-> Object-oriented programming is an exceptionally bad idea which could only
-> have originated in California.
->
-> – [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 
 ## Academic Integrity
 
