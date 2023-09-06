@@ -37,7 +37,7 @@ name: introductions-1
 ## This course
 
 Introduction to Computer Science
-<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>
+[](<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>)
 
 URL: 
 
