@@ -83,6 +83,7 @@
   resources: ''
   quiz: ''
   exercise: 'Assignment 4:<br />- [Text analysis](https://github.com/nyu-java-programming/text-analysis-exercise)'
+  exercise: 'Assignment 4:<br />- Text analysis'
 
 - date: '10/16'
   number: 12
@@ -114,6 +115,7 @@
   resources: ''
   quiz: ''
   exercise: 'Assignment 5:<br />- [Open data](https://github.com/nyu-java-programming/open-data-exercise)'
+  exercise: 'Assignment 5:<br />- Sudoku Validator'
 
 - date: '11/1'
   number: 17
@@ -130,6 +132,7 @@
   quiz: 'String and related classes'
     #exercise: 'Assignment 6:<br />- Virtual moped'
   exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
+  exercise: 'Assignment 6:<br />- New York Tourist'
 
 - date: '11/8'
   number: 19
@@ -143,8 +146,6 @@
   notes: '[Exam 2 review](./slides/exam-2-review)'
   resources: '[Practice](./content/assets/midterm2practice.pdf) <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
   quiz: 'Inheritance and polymorphism'
-    # exercise: 'Assignment 7:<br />- Game development'
-  exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
 
 - date: '11/13'
   number: 20
@@ -172,6 +173,9 @@
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
   resources: '- Chapter 13<br />- [Abstract classes example code](https://github.com/nyu-java-programming/abstract-classes-examples)'
+    # exercise: 'Assignment 7:<br />- Game development'
+  exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
+  exercise: 'Assignment 7:<br />- Language'
 
 - date: '11/29'
   number: 24
@@ -185,8 +189,6 @@
   notes: '[Exception handling](./slides/exception-handling)'
   resources: '- Chapter 12<br />- [Exceptions example code](https://github.com/nyu-java-programming/exceptions-examples)'
   quiz: 'Interfaces and abstract classes'
-  exercise: 'Assignment 8:<br />- Interfaces and abstract classes'
-    #exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
 
 - date: '12/6'
   number: 26
@@ -208,7 +210,9 @@
   topics: 'Review'
   resources: ''
   quiz: ''
-  exercise: 'Assignment 9:<br />- [Recursion](https://github.com/nyu-java-programming/recursion-exercise)<br /><br />**No late assignments accepted past this date**'
+    #exercise: 'Assignment 9:<br />- [Recursion](https://github.com/nyu-java-programming/recursion-exercise)<br /><br />**No late assignments accepted past this date**'
+  exercise: 'Assignment 8:<br />- Sudoku Solver'
+    #exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
     
 
 

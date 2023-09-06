@@ -44,8 +44,8 @@ URL:
 https://cs.nyu.edu/courses/fall23/CSCI-UA.0101-007/
 
 
-- [Syllabus](./../syllabus)
-- [Schedule](./../schedule)
+- [Syllabus](./../../syllabus)
+- [Schedule](./../../schedule)
 
 
 
