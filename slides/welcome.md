@@ -524,6 +524,7 @@ How many times is the function called?
 
 ```python
 def foo(x):
+  print(x)
   if x < 3:
       foo(x+1)
       foo(x+1)
@@ -613,11 +614,12 @@ name: extensions
 
 ## Extensions
 
-Please do not ask for an extension.
+
+You are hereby granted 2 free extensions for work submitted up to 1 week past the due date.
 
 --
 
-You are hereby granted 2 free extensions for work submitted up to 1 week past the due date.
+Email/notify me when you want to use them.
 
 ---
 
@@ -626,6 +628,10 @@ template: how-course-works
 ## Quizzes
 
 Regular simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
+
+--
+
+Answers should be discernable from checking the pertinent slides.
 
 ---
 
@@ -663,7 +669,7 @@ template: how-course-works
 1. Brightspace Discussions
 1. Tutoring
 1. Meet before/after class
-1. Email me
+1. Email me (put course code in subject)
 
 
 ---
@@ -706,7 +712,8 @@ The [schedule](./../../schedule) contains a day-by-day breakdown of everything y
 
 ## Download and JDK
 
-The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE).
+The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE) Version 17. Assignments will be tested against Java 17.
+
 
 https://www.oracle.com/java/technologies/downloads/
 
