@@ -58,9 +58,10 @@ The instructor will be periodically checking the Discussions as well and will an
 ### Tutoring
 
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
+Make sure to doublecheck the [information](./content/assets/F2023TutoringSchedule_student.pdf) as it might be updated in the future.
 
 - [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
-- [Information](./content/assets/cs101_tutoring_info.pdf)
+- [Information](./content/assets/F2023TutoringSchedule_student.pdf)
 
 ### Talk with the instructor
 
