@@ -88,7 +88,6 @@ template: assumptions
 - Never use TextEdit on OS X to edit code.
 - Never use Notepad on Windows to edit code.
 - Do not use Microsoft Word or Google Docs to edit code
-- Beware of Emacs, lest you find yourself forever dreaming of keyboard shortcuts.
 
 ---
 
