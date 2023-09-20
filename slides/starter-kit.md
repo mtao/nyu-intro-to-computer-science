@@ -8,8 +8,6 @@ class: center, middle
 
 # Starter code
 
-Welcome
-
 ---
 
 # Agenda
@@ -77,12 +75,9 @@ template: assumptions
 
 Computer programming code is plain text. In order to edit code, you will need a decent plain text editor program.
 
-- Install [Sublime Text](https://www.sublimetext.com/), a free good quality plain text editor.
-- Sublime Text is freeware, but periodically will ask for donations. You are not required to donate.
-
 --
 
-Just about any code editor or Integrated Development Environment, such as [Visual Studio Code](https://code.visualstudio.com), is a good plain text editor.
+Just about any code editor or Integrated Development Environment (IDE), such as [Visual Studio Code](https://code.visualstudio.com), is a good plain text editor.
 
 ---
 
@@ -103,20 +98,17 @@ template: assumptions
 
 Emacs is a plain text editor that can be run from the command line. Vim is another.
 
-If you want to have the most fun with the \*NIX command line, use Emacs instead of Sublime Text or Visual Studio Code.
+If you want to have the most fun with the \*NIX command line, use Emacs/Vim instead of VS Code.
 
 ---
 
 template: assumptions
 
-## Emacs shortcuts
+## Recommendations about editors
 
-Emacs functionality depends upon a lot of keyboard shortcut combinations. The following will get you started:
-
-- `Ctrl-x Ctrl-s` to save a file
-- `Ctrl-x Ctrl-c` to quit emacs
-
-Learn more shortcuts with an [emacs cheat sheet](https://duckduckgo.com/?q=emacs+cheat+sheet&t=brave&ia=cheatsheet&iax=1).
+- Know your editor.
+- Learn shortcuts, at least a few.
+- Use the debugger!
 
 ---
 
@@ -148,7 +140,7 @@ template: starter-code
 Edit the text file you just created using a text editor of your choice.
 
 ```bash
-foo@bar$ emacs MyFirstJavaProgram.java
+foo@bar$ code MyFirstJavaProgram.java
 ```
 
 Add the following code:
@@ -158,7 +150,6 @@ public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		// put the main contents of your program below here
 		System.out.println("Welcome to Java from the command line!");
-		// put the main contents of your program above here
 	}
 }
 ```
@@ -169,9 +160,10 @@ template: starter-code
 
 ## Save your file
 
-If you are using the emacs editor, press `Ctrl-x Ctrl-S` to save, then `Ctrl-x Ctrl-c` to quit.
+Know the shortcut. Do it frequently!
 
-If using any other graphical user interface editor, just save the ordinary way.
+- Windows: `Ctrl-s`
+- Mac: `Command-s`
 
 ---
 
@@ -218,16 +210,15 @@ template: better-code
 
 Java code can be organized into "packages" of related files.
 
-Add a similar package declaration to your source code file in an editor of your choice, but replace `fb1258` with your own NYU Net ID.
+Add a similar package declaration to your source code file in an editor of your choice, but replace `ab1234` with your own NYU Net ID.
 
 ```java
-package edu.nyu.cs.fb1258;
+package edu.nyu.cs.ab1234;
 
 public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		// put the main contents of your program below here
 		System.out.println("Welcome to Java from the command line!");
-		// put the main contents of your program above here
 	}
 }
 ```
@@ -240,21 +231,21 @@ template: better-code
 
 Sadly, with a package identifier, the `.java` and `.class` files must now be located in a directory that matches the package or the JVM will not execute them.
 
-Create an appropriate set of sub-directories, and move both files at once (replace `fb1258` with yoru own NYU Net ID):
+Create an appropriate set of sub-directories, and move both files at once (replace `ab1234` with your own NYU Net ID):
 
 ```bash
 foo@bar$ mkdir edu
 foo@bar$ mkdir edu/nyu
 foo@bar$ mkdir edu/nyu/cs
-foo@bar$ mkdir edu/nyu/cs/fb1258
-foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/fb1258
+foo@bar$ mkdir edu/nyu/cs/ab1234
+foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/ab1234
 ```
 
 Of course there is a way to create all these sub-directories at once using the `-p` flag to the `mkdir` command:
 
 ```bash
-foo@bar$ mkdir -p edu/nyu/cs/fb1258
-foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/fb1258
+foo@bar$ mkdir -p edu/nyu/cs/ab1234
+foo@bar$ mv MyFirstJavaProgram.* edu/nyu/cs/ab1234
 ```
 
 ---
@@ -266,7 +257,7 @@ template: better-code
 Sadder still, the Java source code must now be re-compiled, since the byte code is no longer up to date.
 
 ```bash
-foo@bar$ javac edu/nyu/cs/fb1258/MyFirstJavaProgram.java
+foo@bar$ javac edu/nyu/cs/ab1234/MyFirstJavaProgram.java
 ```
 
 This will overwrite the file named `MyFirstJavaProgram.class` in the appropriate directory.
@@ -277,16 +268,14 @@ template: better-code
 
 ## Re-execute the Java byte code
 
-At this point, you have two files named `MyFirstJavaProgram.java` (source code) and `MyFirstJavaProgram.class` (byte code) in the directory `edu/nyu/cs/fb1258`, where `fb1258` is replaced with your own NYU Net ID.
+At this point, you have two files named `MyFirstJavaProgram.java` (source code) and `MyFirstJavaProgram.class` (byte code) in the directory `edu/nyu/cs/ab1234`, where `ab1234` is replaced with your own NYU Net ID.
 
 Now try running it. Here we will tell the JVM that it should look in the current working directory (nicknamed `.` in UNIX) and any sub-directories for the appropriate .class files within the indicated package.
 
 ```bash
-foo@bar$ java -classpath . edu.nyu.cs.fb1258.MyFirstJavaProgram
+foo@bar$ java -classpath . edu.nyu.cs.ab1234.MyFirstJavaProgram
 Better welcome to Java from the command line!
 ```
-
-Use package identifiers from now on in all work.
 
 ---
 
@@ -314,14 +303,14 @@ project-directory/
 
 --
 
-In which case, we'd need to modify our compile and execute commands. Assuming the source code files were in the new location:
+We need to modify our compile and execute commands:
 
 ```bash
-foo@bar$ javac -d bin src/edu/nyu/cs/fb1258/MyFirstJavaProgram.java
+foo@bar$ javac -d bin src/edu/nyu/cs/ab1234/MyFirstJavaProgram.java
 ```
 
 ```bash
-foo@bar$ java -cp bin edu.nyu.cs.fb12358.MyFirstJavaProgram
+foo@bar$ java -cp bin edu.nyu.cs.ab1234.MyFirstJavaProgram
 ```
 
 ---
@@ -337,7 +326,7 @@ name: input
 In order to easily receive keyboard input from a user, a Java program must import `java.util.Scanner`.
 
 ```java
-package edu.nyu.cs.fb1258;
+package edu.nyu.cs.ab1234;
 
 import java.util.Scanner;
 
@@ -377,7 +366,7 @@ template: input
 Using any of the functions besides `nextLine()` creates complication. For example:
 
 ```java
-package edu.nyu.cs.fb1258;
+package edu.nyu.cs.ab1234;
 import java.util.Scanner;
 
 public class LookHowGreatJavaIs {
@@ -456,7 +445,7 @@ template: data-types
 
 Observations:
 
-- `float` and `double` are fundamentally inaccurate. Use `java.math.BigDecimal` for accuracy.
+- `float` and `double` are fundamentally inaccurate. Use `java.math.BigDecimal` for accuracy if required.
 - there is no `String` primitive data type in Java. `String` is a `class` that is written in Java code.
 - because it contains "primitive" data types that are not only `class` types, _Java is not a purely object-oriented language_.
 
@@ -543,10 +532,10 @@ template: data-types
 
 `String` is not a primitive data type, it's an object-oriented `class`.
 
-- Only primitive data types with the same value are guaranteed to be stored in the same spot in memory
-- So two Strings with the same value may be stored in different spots in memory
-- So the `==` operator may not always result in a `true`, when comparing two Strings, even those with the same text.
-- So use the `.equals()` method for Strings instead.
+- Only primitive data types can be compared with `==`
+- Two Strings with the same value may be stored in different spots in memory
+- The `==` operator may not always result in a `true`, when comparing two Strings, even those with the same text.
+- Use the `.equals()` method for Strings instead.
 
 ```java
 String x = "hello";
@@ -764,9 +753,9 @@ template: data-types
 
 ## Converting data types
 
-Use **exception handline** to handle any problems encountered while attempting to convert one data type to another.
+Use **exception handling** to handle any problems encountered while attempting to convert one data type to another.
 
-```
+```java
 String aString = "foo bar baz bum"; //  a string that has no obvious int equivalent
 
 try{
@@ -788,7 +777,3 @@ name: conclusions
 --
 
 We can now use the command line to write and compile Java source code into Java byte code and then execute that byte code using the JVM interpreter. We also understand a bit about data types in Java.
-
---
-
-- Thank you. Bye.
