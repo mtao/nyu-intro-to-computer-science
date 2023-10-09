@@ -503,10 +503,28 @@ Every file and folder controls who can read/write/execute a file
 - others - everyone else not including the user or
   the group
 
-
 ---
 
 
+
+## Software is Input/Output
+
+
+Inputs:
+- Files
+- User Inputs
+  - Mouse
+  - Keyboard
+  - Microphone
+  - Camera
+- Network data
+Outputs:
+- Files
+- Visuals (through monitors/screens)
+- Sound (through headphones/screens)
+- Network data
+
+---
 
 ## The Environment
 
@@ -575,9 +593,9 @@ For a user on a client computer:
 
 
 For a remote server computer:
-- Input: A request for a webpage
-- Output: Data required for visualizing a webpage [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) or
+- Input: A request for a webpage using the [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) or
 HTTPS protocol.
+- Output: [HTML](https://en.wikipedia.org/wiki/HTML) data sent with the HTTP/HTTPS protocol.
 
 --
 

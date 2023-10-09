@@ -13,11 +13,13 @@ How to design algorithms to solve problems and how to translate these algorithms
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
-[GCASL, Room 275](https://library.nyu.edu/services/campus-media/classrooms/gcasl-275/), but check the #announcements channel [our Slack](#messaging) for any changes.
+251 Mercer St (Warren Weaver) Room 101
+, but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
 
 ### Office Hours
-Office hours are from 3pm to 4pm on Tuesdays and 1pm to 2pm on Wednesdays at room 502 in [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.
+Office hours are to be determined.
+[](, but they will be on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.)
 
 ### Textbook
 
@@ -43,23 +45,23 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Michael Tao<br />michael.tao@cs.nyu.edu<br />60 5th Ave, 5th floor
+Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor
 
 ## Getting help
 
 Help resources available to you are listed in order of urgency of your problem:
 
-### Messaging
-
-Our course will use [Slack]({{ site.slack_link }}) as the main communication channel for announcements and discussion. One can join the server with [this link]({{ site.slack_link }}).  This is a good place to ask questions that anyone - other students, graders, or the professor - can answer. This is a resource best used when the answer is not required urgently.
-
+### Brightspace Discussions
+Try asking a question using Brightspace Discussions. Maybe others have had the same issue.
+The instructor will be periodically checking the Discussions as well and will answer questions when appropriate.
 
 ### Tutoring
 
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
+Make sure to doublecheck the [information](./content/assets/F2023TutoringSchedule_student.pdf) as it might be updated in the future.
 
 - [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
-- [Information](./content/assets/cs101_tutoring_info.pdf)
+- [Information](./content/assets/F2023TutoringSchedule_student.pdf)
 
 ### Talk with the instructor
 
@@ -118,11 +120,11 @@ You will receive a grade calculated mechanically on the following rubric.
 
 ### Quizzes
 
-Quizzes are completed outside of class on Brightspace and due by the date they are specified on the [schedule](./schedule).
+Quizzes are completed outside of class on [Brightspace]({{ site.brightspace_url }}) and due by the date they are specified on the [schedule](./schedule).
 
 ### Assignments
 
-Assignments are submitted through Brightspace.
+Assignments are posted on Brightspace and submitted through Brightspace using Gradescope.
 
 ### Late policy
 
@@ -151,12 +153,6 @@ last day of regular classes before the final exam period.
 If a student requests a regrade of any work, we will regrade the work in full,
 not just the part that the student believes has been mis-graded.
 
-## Inspirational quote
-
-> Object-oriented programming is an exceptionally bad idea which could only
-> have originated in California.
->
-> – [Edsger Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)
 
 ## Academic Integrity
 

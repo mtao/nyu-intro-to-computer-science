@@ -1,9 +1,10 @@
 github-username: mtao
 github-reponame: nyu-intro-to-computer-science
 url: https://cs.nyu.edu
-baseurl: /courses/spring23/CSCI-UA.0101-009/
+baseurl: /courses/fall23/CSCI-UA.0101-007/
 title: Introduction to Computer Science
-section: CSCI-UA.0101-009
+section: CSCI-UA.0101-007
+brightspace_url: https://brightspace.nyu.edu/d2l/home/315288
 description: >
   A thorough course in computer science concepts, focused on object-oriented programming using the Java programming language.
 copyright: GNU General Public License, Version 3

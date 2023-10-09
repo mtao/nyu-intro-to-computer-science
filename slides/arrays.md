@@ -296,7 +296,7 @@ String[] words = {"good", "how", "morning", "are", "you"};
 String searchTerm = "morning";
 int pos = -1; // start out with a value that indicates we haven't found the searched-for value yet
 for (int i=0; i < words.length; i++) {
-    if (words[i] == searchTerm) {
+    if (words[i].equals(searchTerm)) {
         pos = i; // we have found the value at the position i
     }
 }
