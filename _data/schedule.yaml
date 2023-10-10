@@ -72,6 +72,7 @@
 - date: '3/1'
   number: 11
   topics: 'Midterm Exam #1'
+  notes: '[Review 1](./slides/exam-1-review)'
 
 - date: '3/6'
   number: 12
