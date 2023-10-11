@@ -71,7 +71,7 @@
 - date: '10/10'
   number: 10
   topics: 'Review'
-  notes: ''
+  notes: '[Exam 1 review](./slides/exam-1-review)'
   resources: ''
   quiz: 'Arrays'
 
