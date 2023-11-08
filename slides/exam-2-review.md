@@ -155,20 +155,6 @@ Polymorphism goes hand-in-hand with inheritance.
 
 ---
 
-template: inheritance
-
-## Processing
-
-Processing as a case study in inheritance:
-
-- inheritance of many useful properties (e.g. `width`, `height`, `mouseX`, `mouseY`)
-- inheritance of many useful methods (e.g. `ellipse()`, `rect()`, `image()`, etc)
-- inheritance of behaviors (e.g. `draw()` method magically called every 1/60th second, `mouseX` and `mouseY` automagically assigned the mouse position values)
-- abstraction: we don't need to know _how_ it works, just how to use it
-- some poor quality design (e.g. we should not be able to directly access `width`, `height`, `mouseX` and `mouseY` - we should be using getters)
-
----
-
 name: this-super
 
 # This is Super
