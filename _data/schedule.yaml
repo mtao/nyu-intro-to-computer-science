@@ -100,22 +100,21 @@
   topics: 'Midterm Exam #1 post-mortem'
   notes: ''
   resources: ''
-  quiz: 'Multidimensional arrays'
 
 - date: '10/25'
   number: 15
   topics: 'Object-oriented programming (OOP)'
   notes: '[Object orientation](./slides/object-orientation)'
   resources: '- Chapter 9<br />- [Object orientation example code](https://github.com/nyu-java-programming/simple-object-examples)'
+  quiz: ''
 
 - date: '10/30'
   number: 16
   topics: 'OOP (continued)'
   notes: ''
   resources: ''
-  quiz: ''
-  exercise: 'Assignment 5:<br />- [Open data](https://github.com/nyu-java-programming/open-data-exercise)'
-  exercise: 'Assignment 5:<br />- Sudoku Validator'
+  quiz: 'Multidimensional arrays'
+    #exercise: 'Assignment 5:<br />- [Open data](https://github.com/nyu-java-programming/open-data-exercise)'
 
 - date: '11/1'
   number: 17
@@ -130,9 +129,7 @@
   notes: '[Inheritance](./slides/inheritance)'
   resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
   quiz: 'String and related classes'
-    #exercise: 'Assignment 6:<br />- Virtual moped'
-  exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
-  exercise: 'Assignment 6:<br />- New York Tourist'
+  exercise: 'Assignment 5:<br />- Sudoku Validator'
 
 - date: '11/8'
   number: 19
@@ -164,6 +161,9 @@
   topics: 'Interfaces and Midterm Exam #2 post-mortem'
   notes: '[Interfaces](./slides/interfaces)'
   resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
+    #exercise: 'Assignment 6:<br />- Virtual moped'
+  exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
+  exercise: 'Assignment 6:<br />- New York Tourist'
 
 - date: '11/22'
   topics: 'Fall Break (No class)'
@@ -174,14 +174,14 @@
   notes: '[Abstract classes](./slides/abstract-classes)'
   resources: '- Chapter 13<br />- [Abstract classes example code](https://github.com/nyu-java-programming/abstract-classes-examples)'
     # exercise: 'Assignment 7:<br />- Game development'
-  exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
-  exercise: 'Assignment 7:<br />- Language'
 
 - date: '11/29'
   number: 24
   topics: 'Midterm Exam #2 post-mortem'
   notes: ''
   resources: ''
+  exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
+  exercise: 'Assignment 7:<br />- Language'
 
 - date: '12/4'
   number: 25
