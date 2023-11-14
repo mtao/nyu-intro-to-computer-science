@@ -147,6 +147,7 @@
 - date: '11/13'
   number: 20
   topics: 'Review (continued)'
+  resources: '[Practice Code](./content/assets/midterm2practicecode.zip)'
     #  topics: 'Processing (continued)'
     #  notes: ''
     #  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)'
