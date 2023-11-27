@@ -171,18 +171,17 @@
 
 - date: '11/27'
   number: 23
-  topics: 'Abstract classes'
-  notes: '[Abstract classes](./slides/abstract-classes)'
-  resources: '- Chapter 13<br />- [Abstract classes example code](https://github.com/nyu-java-programming/abstract-classes-examples)'
+  topics: 'Midterm Exam #2 post-mortem'
+  notes: ''
+  resources: ''
     # exercise: 'Assignment 7:<br />- Game development'
 
 - date: '11/29'
   number: 24
-  topics: 'Midterm Exam #2 post-mortem'
-  notes: ''
-  resources: ''
-  exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
-  exercise: 'Assignment 7:<br />- Language'
+  topics: 'Abstract classes'
+  notes: '[Abstract classes](./slides/abstract-classes)'
+    #exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
+    #exercise: 'Assignment 7:<br />- Language'
 
 - date: '12/4'
   number: 25
@@ -204,7 +203,8 @@
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
   resources: '[Practice](./content/assets/final_practice.pdf) <br />[Cheat Sheet](./content/assets/finalCheatSheet.java)'
   quiz: ''
-  exercise: ''
+  exercise: 'Assignment 6:<br />- New York Tourist'
+    #exercise: ''
 
 - date: '12/13'
   number: 28
@@ -212,7 +212,7 @@
   resources: ''
   quiz: ''
     #exercise: 'Assignment 9:<br />- [Recursion](https://github.com/nyu-java-programming/recursion-exercise)<br /><br />**No late assignments accepted past this date**'
-  exercise: 'Assignment 8:<br />- Sudoku Solver'
+    #exercise: 'Assignment 8:<br />- Sudoku Solver'
     #exercise: 'Assignment 8:<br />- [Interfaces and abstract classes](https://classroom.github.com/a/0DiB_as1)'
     
 
