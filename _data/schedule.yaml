@@ -163,8 +163,8 @@
   notes: '[Interfaces](./slides/interfaces)'
   resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
     #exercise: 'Assignment 6:<br />- Virtual moped'
-  exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
-  exercise: 'Assignment 6:<br />- New York Tourist'
+    #exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
+    #exercise: 'Assignment 6:<br />- New York Tourist'
 
 - date: '11/22'
   topics: 'Fall Break (No class)'
@@ -203,7 +203,7 @@
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
   resources: '[Practice](./content/assets/final_practice.pdf) <br />[Cheat Sheet](./content/assets/finalCheatSheet.java)'
   quiz: ''
-  exercise: 'Assignment 6:<br />- New York Tourist'
+  exercise: 'Assignment 6:<br />- Virtual Moped'
     #exercise: ''
 
 - date: '12/13'
