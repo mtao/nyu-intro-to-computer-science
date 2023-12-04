@@ -85,7 +85,7 @@ The only two differences between an abstract class and a concrete class are...
 ```java
 public abstract class Foo {
 
-  pubic abstract int getRandom(int lowerBound, int upperBound);
+  public abstract int getRandom(int lowerBound, int upperBound);
 
 }
 ```
@@ -118,7 +118,7 @@ Since abstract classes can contain abstract methods and because an abstract clas
 public abstract class Foo {
 
   // an abstract method, for example
-  pubic abstract int getRandom(int lowerBound, int upperBound);
+  public abstract int getRandom(int lowerBound, int upperBound);
 
 }
 ```
@@ -172,7 +172,7 @@ An abstract class cannot be instantiated because any object made from it would p
 public abstract class Foo {
 
   // an abstract method, for example
-  pubic abstract int getRandom(int lowerBound, int upperBound);
+  public abstract int getRandom(int lowerBound, int upperBound);
 
 }
 ```
