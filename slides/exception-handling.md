@@ -128,7 +128,7 @@ You may wonder _why all exceptions aren't checked_ by the compiler, so Java can 
 
 template: overview
 
-## Net net
+## Why two types? (continued)
 
 --
 
