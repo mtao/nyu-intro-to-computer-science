@@ -201,7 +201,7 @@
   number: 27
   topics: 'Review'
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
-  resources: '[Practice](./content/assets/final_practice.pdf)
+  resources: '[Practice](./content/assets/final_practice.pdf)'
   quiz: ''
   exercise: 'Assignment 6:<br />- Virtual Moped'
     #exercise: ''
