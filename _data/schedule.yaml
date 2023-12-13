@@ -201,7 +201,7 @@
   number: 27
   topics: 'Review'
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
-  resources: '[Practice](./content/assets/final_practice.pdf) <br />[Cheat Sheet](./content/assets/finalCheatSheet.java)'
+  resources: '[Practice](./content/assets/final_practice.pdf)
   quiz: ''
   exercise: 'Assignment 6:<br />- Virtual Moped'
     #exercise: ''
@@ -209,7 +209,7 @@
 - date: '12/13'
   number: 28
   topics: 'Review'
-  resources: ''
+  resources: '[Practice2](./content/assets/final_practice2.pdf)'
   quiz: ''
     #exercise: 'Assignment 9:<br />- [Recursion](https://github.com/nyu-java-programming/recursion-exercise)<br /><br />**No late assignments accepted past this date**'
     #exercise: 'Assignment 8:<br />- Sudoku Solver'
