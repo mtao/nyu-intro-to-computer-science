@@ -25,6 +25,8 @@ Office hours are to be determined.
 
 Introduction to Java Programming, Brief Version, 10th edition, by Y. Daniel Liang
 
+It's a good book but I will not be following it directly.
+
 ## Learning objectives
 
 Upon completing this course, students will be familiar with some of the foundations of computer science, including:
@@ -58,10 +60,9 @@ The instructor will be periodically checking the Discussions as well and will an
 ### Tutoring
 
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
-Make sure to doublecheck the [information](./content/assets/F2023TutoringSchedule_student.pdf) as it might be updated in the future.
+Information on tutors will be available in the near future.
 
 - [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
-- [Information](./content/assets/F2023TutoringSchedule_student.pdf)
 
 ### Talk with the instructor
 
@@ -124,7 +125,7 @@ Quizzes are completed outside of class on [Brightspace]({{ site.brightspace_url 
 
 ### Assignments
 
-Assignments are posted on Brightspace and submitted through Brightspace using Gradescope.
+Assignments are posted on Brightspace and submitted through using Gradescope, which you can access through Brightspace.
 
 ### Late policy
 

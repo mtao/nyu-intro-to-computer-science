@@ -41,7 +41,7 @@ Introduction to Computer Science
 
 URL: 
 
-https://cs.nyu.edu/courses/fall23/CSCI-UA.0101-007/
+https://cs.nyu.edu/courses/spring24/CSCI-UA.0101-009/
 
 
 - [Syllabus](./../../syllabus)
