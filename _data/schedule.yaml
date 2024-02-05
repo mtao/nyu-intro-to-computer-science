@@ -37,6 +37,7 @@
   notes: '[Branching](./slides/branching)'
   resources: '- Oracle tutorials: [Primitive data types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)<br />- [Decision-making example code](https://github.com/nyu-java-programming/decision-making-examples)'
   quiz: 'Java paradigm'
+  exercise: 'Assignment 1:<br />- Java Hello World'
 
 - date: '2/12'
   number: 7
@@ -44,7 +45,7 @@
   notes: '[Loops](./slides/loops)'
   resources: '- Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples)'
   quiz: 'Branching'
-  exercise: #'Assignment 2:<br />- Basic programming'
+  exercise: 'Assignment 2:<br />- Basic programming'
 
 - date: '2/14'
   number: 8
@@ -62,7 +63,7 @@
   notes: '[Arrays](./slides/arrays)'
   resources: '- Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples)'
   quiz: 'Methods'
-  exercise: #'Assignment 3:<br />- Blackjack'
+  exercise: 'Assignment 3:<br />- Blackjack'
 
 - date: '2/26'
   number: 10
