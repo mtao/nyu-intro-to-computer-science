@@ -743,7 +743,7 @@ template: data-types
 Integer to ASCII code:
 
 ```java
-int i  = (int) "A";
+int i  = (int) 'A';
 ```
 
 ---
