@@ -45,7 +45,6 @@
   notes: '[Loops](./slides/loops)'
   resources: '- Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples)'
   quiz: 'Branching'
-  exercise: 'Assignment 2:<br />- Basic programming'
 
 - date: '2/14'
   number: 8
@@ -53,6 +52,7 @@
   notes: '[Methods](./slides/methods)'
   resources: '- Chapter 6<br />- [Methods example code](https://github.com/nyu-java-programming/methods-examples)'
   quiz: 'Loops'
+  exercise: 'Assignment 2:<br />- Basic programming'
 
 - date: '2/19'
   topics: 'Presidents Day (no class)'

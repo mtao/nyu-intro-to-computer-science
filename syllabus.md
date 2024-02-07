@@ -18,8 +18,7 @@ Lectures are held on Monday and Wednesday from 3:30-4:45 at
 
 
 ### Office Hours
-Office hours are to be determined.
-[](, but they will be on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.)
+Office hours on Wed from 1-2pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
 
 ### Textbook
 
@@ -47,7 +46,7 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor
+Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor (room 506).
 
 ## Getting help
 
@@ -63,6 +62,7 @@ Tutors for this course are waiting to answer your questions during dedicated tut
 Information on tutors will be available in the near future.
 
 - [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
+- [Schedulre](./content/assets/S2024TutoringSchedule_student.pdf)
 
 ### Talk with the instructor
 
