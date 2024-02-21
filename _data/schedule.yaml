@@ -152,7 +152,7 @@
   topics: 'Interfaces'
   notes: '[Interfaces](./slides/interfaces)'
   resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
-    exercise: 'Assignment 6:<br />- Virtual moped'
+  exercise: 'Assignment 6:<br />- Virtual moped'
     #exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
     #exercise: 'Assignment 6:<br />- New York Tourist'
 
@@ -169,7 +169,7 @@
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
     #exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
-    exercise: 'Assignment 7:<br />- Language'
+  exercise: 'Assignment 7:<br />- Language'
 
 - date: '4/22'
   number: 25
