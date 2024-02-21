@@ -63,7 +63,6 @@
   notes: '[Arrays](./slides/arrays)'
   resources: '- Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples)'
   quiz: 'Methods'
-  exercise: 'Assignment 3:<br />- Blackjack'
 
 - date: '2/26'
   number: 10
@@ -79,7 +78,7 @@
   notes: ''
   resources: #'[Practice](./content/assets/midterm1practice.pdf)'
   quiz: ''
-  exercise: #'Assignment 4:<br />- Text analysis'
+  exercise: 'Assignment 3:<br />- Blackjack'
 
 - date: '3/4'
   number: 12
@@ -96,6 +95,7 @@
   topics: 'Midterm Exam #1 post-mortem'
   notes: ''
   resources: ''
+  exercise: 'Assignment 4:<br />- Text analysis'
 
 - date: '3/13'
   number: 15
@@ -118,6 +118,7 @@
   notes: '[Strings and related classes](./slides/strings-as-objects)'
   resources: '- Chapter 4<br />- [Strings basic example code](https://github.com/nyu-java-programming/string-examples)<br />- [Text alignment example code](https://github.com/nyu-java-programming/text-alignment)'
   quiz: 'Object orientation'
+  exercise: 'Assignment 5:<br />- Sudoku Validator'
 
 - date: '4/1'
   number: 18
@@ -125,7 +126,6 @@
   notes: '[Inheritance](./slides/inheritance)'
   resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
   quiz: 'String and related classes'
-  exercise: #'Assignment 5:<br />- Sudoku Validator'
 
 - date: '4/3'
   number: 19
@@ -152,7 +152,7 @@
   topics: 'Interfaces'
   notes: '[Interfaces](./slides/interfaces)'
   resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
-    #exercise: 'Assignment 6:<br />- Virtual moped'
+    exercise: 'Assignment 6:<br />- Virtual moped'
     #exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
     #exercise: 'Assignment 6:<br />- New York Tourist'
 
@@ -169,7 +169,7 @@
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
     #exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
-    #exercise: 'Assignment 7:<br />- Language'
+    exercise: 'Assignment 7:<br />- Language'
 
 - date: '4/22'
   number: 25
