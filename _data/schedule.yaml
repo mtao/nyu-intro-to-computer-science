@@ -80,7 +80,7 @@
   number: 11
   topics: 'Review (continued)'
   notes: ''
-  resources: '[Practice](./content/assets/midterm1practice.pdf)'
+  resources: '[Practice](./content/assets/midterm1practice.pdf)<br />[Practice Solutions](./content/assets/midterm1practice_solutions.pdf)'
   quiz: ''
   exercise: 'Assignment 4:<br />- [Text analysis](https://github.com/nyu-java-programming/text-analysis-exercise)'
   exercise: 'Assignment 4:<br />- Text analysis'
