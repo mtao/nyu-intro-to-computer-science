@@ -18,12 +18,13 @@ Lectures are held on Monday and Wednesday from 3:30-4:45 at
 
 
 ### Office Hours
-Office hours are to be determined.
-[](, but they will be on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8). If I'm not in the room you should be able to find me in room 506.)
+Office hours on Wed from 1-2pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
 
 ### Textbook
 
 Introduction to Java Programming, Brief Version, 10th edition, by Y. Daniel Liang
+
+It's a good book but I will not be following it directly.
 
 ## Learning objectives
 
@@ -45,7 +46,7 @@ Upon completing this course, students will be familiar with some of the foundati
 
 ## Instructor
 
-Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor
+Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor (room 506).
 
 ## Getting help
 
@@ -58,10 +59,10 @@ The instructor will be periodically checking the Discussions as well and will an
 ### Tutoring
 
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
-Make sure to doublecheck the [information](./content/assets/F2023TutoringSchedule_student.pdf) as it might be updated in the future.
+Information on tutors will be available in the near future.
 
 - [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
-- [Information](./content/assets/F2023TutoringSchedule_student.pdf)
+- [Schedulre](./content/assets/S2024TutoringSchedule_student.pdf)
 
 ### Talk with the instructor
 
@@ -124,7 +125,7 @@ Quizzes are completed outside of class on [Brightspace]({{ site.brightspace_url 
 
 ### Assignments
 
-Assignments are posted on Brightspace and submitted through Brightspace using Gradescope.
+Assignments are posted on Brightspace and submitted through using Gradescope, which you can access through Brightspace.
 
 ### Late policy
 

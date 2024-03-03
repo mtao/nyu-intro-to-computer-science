@@ -37,11 +37,11 @@ name: introductions-1
 ## This course
 
 Introduction to Computer Science
-[](<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>)
+<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>
 
 URL: 
 
-https://cs.nyu.edu/courses/fall23/CSCI-UA.0101-007/
+https://cs.nyu.edu/courses/spring24/CSCI-UA.0101-009/
 
 
 - [Syllabus](./../../syllabus)
@@ -65,8 +65,8 @@ template: introductions
 
 michael.tao@nyu.edu
 
-<img src="https://www.dgp.toronto.edu/projects/mandoline/teaser.png" width=600\>
-<img src="https://www.dgp.toronto.edu/projects/vempic/teaser.png" width=600\>
+<img src="../../content/assets/mandoline.png" alt="drawing" width="600" style="float: right"/>
+<img src="../../content/assets/vempic.png" alt="drawing" width="600" style="float: right"/>
 
 ---
 
@@ -282,6 +282,7 @@ f = open('data.csv', 'r')
 # print out each line of the file
 for line in f:
     data = line.split(",")
+    print(data)
 ```
 
 Review [text files](https://nyu-python-programming.github.io/course-material/text-files).
@@ -453,7 +454,6 @@ Can you answer these questions?
 - Review:
   - [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
   - Chapter 1.1-1.4 in the [textbook](./../syllabus#textbook)
-  - I will write release some notes before next lecture on the components of a computer.
 
 ---
 
