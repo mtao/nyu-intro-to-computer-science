@@ -1,37 +1,36 @@
-- date: "1/22"
+- date: "9/4"
   number: 1
   topics: "[Syllabus](./syllabus)"
   notes: "[Welcome](./slides/welcome)"
 
 
-- date: "1/24"
+- date: "9/9"
   number: 2
   topics: Basic computer concepts
   notes: "[Basic computer concepts](./slides/basic-computer-concepts)"
   resources: "- [Basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts)<br />- [Computer Science: Not about Computers, Not Science](./content/assets/Computer_Science_Not_About_Computers_Not_a_Science.pdf)"
 
-
-- date: "1/29"
+- date: "9/11"
   number: 3
   topics: Unix
   notes: "[Unix intro](./slides/unix-intro)"
   quiz: "Basic computer concepts"
     # Assignment 0:<br />- [Consent form](https://goo.gl/forms/uxxgA3D9F3kA0KAR2)<br />- Install [OpenJDK 8](https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u242-b08)<br />- Install [Visual Studio Code](https://code.visualstudio.com/) and [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)<br />- Join Discord"
 
-- date: '1/31'
+- date: '9/16'
   number: 4
   topics: 'The Java paradigm'
   notes: '[Java paradigm](./slides/java-paradigm)<br />'
   resources: '- Chapter 2<br />- [Java acronyms](https://www.javatpoint.com/difference-between-jdk-jre-and-jvm#jre)'
   quiz: 'Unix'
 
-- date: '2/5'
+- date: '9/18'
   number: 5
   topics: 'Starter Code'
   notes: '[Starter code](./slides/starter-code)'
   exercise: #'Assignment 1:<br />- Java Hello World'
 
-- date: '2/7'
+date: '9/23'
   number: 6
   topics: 'Decision-making'
   notes: '[Branching](./slides/branching)'
@@ -39,14 +38,14 @@
   quiz: 'Java paradigm'
   exercise: 'Assignment 1:<br />- Java Hello World'
 
-- date: '2/12'
+- date: '9/25'
   number: 7
   topics: 'Loops'
   notes: '[Loops](./slides/loops)'
   resources: '- Chapter 5<br />- [Loops example code](https://github.com/nyu-java-programming/loops-examples)'
   quiz: 'Branching'
 
-- date: '2/14'
+- date: '9/30'
   number: 8
   topics: 'Methods'
   notes: '[Methods](./slides/methods)'
@@ -54,17 +53,17 @@
   quiz: 'Loops'
   exercise: 'Assignment 2:<br />- Basic programming'
 
-- date: '2/19'
+- date: '9/30'
   topics: 'Presidents Day (no class)'
 
-- date: '2/21'
+- date: '10/2'
   number: 9
   topics: 'Arrays'
   notes: '[Arrays](./slides/arrays)'
   resources: '- Chapter 7<br />- [Arrays example code](https://github.com/nyu-java-programming/array-examples)'
   quiz: 'Methods'
 
-- date: '2/26'
+- date: '10/7'
   number: 10
   topics: 'Review'
   notes: '[Exam 1 review](./slides/exam-1-review)'
@@ -72,7 +71,7 @@
   quiz: 'Arrays'
 
 
-- date: '2/28'
+- date: '10/9'
   number: 11
   topics: 'Review (continued)'
   notes: ''
@@ -80,31 +79,31 @@
   quiz: ''
   exercise: 'Assignment 3:<br />- Blackjack'
 
-- date: '3/4'
+- date: '10/15'
   number: 12
   topics: 'Midterm Exam #1'
 
-- date: '3/6'
+- date: '10/16'
   number: 13
   topics: '- Multidimensional arrays<br />- Documenting source code'
   notes: '- [Multidimensional arrays](./slides/arrays-multidimensional)<br />- [Javadoc](./javadoc)'
   resources: '- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples)'
 
-- date: '3/11'
+- date: '10/21'
   number: 14
   topics: 'Midterm Exam #1 post-mortem'
   notes: ''
   resources: ''
   exercise: 'Assignment 4:<br />- Text analysis'
 
-- date: '3/13'
+- date: '10/23'
   number: 15
   topics: 'Object-oriented programming (OOP)'
   notes: '[Object orientation](./slides/object-orientation)'
   resources: '- Chapter 9<br />- [Object orientation example code](https://github.com/nyu-java-programming/simple-object-examples)'
   quiz: ''
 
-- date: '3/25'
+- date: '10/28'
   number: 16
   topics: 'OOP (continued)'
   notes: ''
@@ -112,7 +111,7 @@
   quiz: 'Multidimensional arrays'
     #exercise: 'Assignment 5:<br />- [Open data](https://github.com/nyu-java-programming/open-data-exercise)'
 
-- date: '3/27'
+- date: '10/30'
   number: 17
   topics: 'Strings'
   notes: '[Strings and related classes](./slides/strings-as-objects)'
@@ -120,21 +119,21 @@
   quiz: 'Object orientation'
   exercise: 'Assignment 5:<br />- Sudoku Validator'
 
-- date: '4/1'
+- date: '11/4'
   number: 18
   topics: 'Inheritance'
   notes: '[Inheritance](./slides/inheritance)'
   resources: '- Chapter 10<br />- [Inheritance example code](https://github.com/nyu-java-programming/simple-inheritance-example)'
   quiz: 'String and related classes'
 
-- date: '4/3'
+- date: '11/6'
   number: 19
   topics: 'Review'
   notes: '[Exam 2 review](./slides/exam-2-review)'
   resources: '[Practice](./content/assets/midterm2practice.pdf) <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
   quiz: 'Inheritance and polymorphism'
 
-- date: '4/8'
+- date: '11/11'
   number: 20
   topics: 'Review (continued)'
   resources: '[Practice Code](./content/assets/midterm2practicecode.zip)'
@@ -143,11 +142,11 @@
     #  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)'
     #  quiz: 'Processing framework'
 
-- date: '4/10'
+- date: '11/13'
   number: 21
   topics: 'Midterm Exam #2'
 
-- date: '4/15'
+- date: '11/18'
   number: 22
   topics: 'Interfaces'
   notes: '[Interfaces](./slides/interfaces)'
@@ -157,35 +156,35 @@
     #exercise: 'Assignment 6:<br />- New York Tourist'
 
 
-- date: '4/17'
+- date: '11/20'
   number: 23
   topics: 'Midterm Exam #2 post-mortem'
   notes: ''
   resources: #'[Retake problems](./content/assets/midterm2retake.pdf)'
     # exercise: 'Assignment 7:<br />- Game development'
 
-- date: '4/22'
+- date: '11/25'
   number: 24
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
     #exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
   exercise: 'Assignment 7:<br />- Language'
 
-- date: '4/22'
+- date: '11/27'
   number: 25
   topics: 'Exception handling'
   notes: '[Exception handling](./slides/exception-handling)'
   resources: '- Chapter 12<br />- [Exceptions example code](https://github.com/nyu-java-programming/exceptions-examples)'
   quiz: 'Interfaces and abstract classes'
 
-- date: '4/29'
+- date: '12/2'
   number: 26
   topics: 'Recursion'
   notes: '[Recursion](./slides/recursion)'
   resources: '- Chapter 18<br />- [Recursion example code](https://github.com/nyu-java-programming/recursion-examples)'
   quiz: 'Exceptions'
 
-- date: '5/1'
+- date: '12/4'
   number: 27
   topics: 'Review'
   notes: '[Final Exam 3 review](./slides/exam-3-review)'
@@ -194,7 +193,7 @@
   exercise: #'Assignment 6:<br />- Virtual Moped'
     #exercise: ''
 
-- date: '5/6'
+- date: '12/9'
   number: 28
   topics: 'Review'
   resources: #'- [Practice2](./content/assets/final_practice2.pdf)<br />- [Practice solutions](./content/assets/final_prac.zip)'
