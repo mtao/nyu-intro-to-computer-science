@@ -53,9 +53,6 @@ date: '9/23'
   quiz: 'Loops'
   exercise: 'Assignment 2:<br />- Basic programming'
 
-- date: '9/30'
-  topics: 'Presidents Day (no class)'
-
 - date: '10/2'
   number: 9
   topics: 'Arrays'
@@ -65,29 +62,29 @@ date: '9/23'
 
 - date: '10/7'
   number: 10
-  topics: 'Review'
-  notes: '[Exam 1 review](./slides/exam-1-review)'
-  resources: ''
+  topics: '- Multidimensional arrays<br />- Documenting source code'
+  notes: '- [Multidimensional arrays](./slides/arrays-multidimensional)<br />- [Javadoc](./javadoc)'
+  resources: '- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples)'
   quiz: 'Arrays'
 
 
 - date: '10/9'
   number: 11
-  topics: 'Review (continued)'
-  notes: ''
-  resources: '[Practice](./content/assets/midterm1practice.pdf)<br />[Practice Solutions](./content/assets/midterm1practice_solutions.pdf)'
-  quiz: ''
+  topics: 'Review'
+  notes: '[Exam 1 review](./slides/exam-1-review)'
+  resources: ''
   exercise: 'Assignment 3:<br />- Blackjack'
 
 - date: '10/15'
   number: 12
-  topics: 'Midterm Exam #1'
+  topics: 'Review (continued)'
+  notes: ''
+  resources: # '[Practice](./content/assets/midterm1practice.pdf)<br />[Practice Solutions](./content/assets/midterm1practice_solutions.pdf)'
+  quiz: ''
 
 - date: '10/16'
   number: 13
-  topics: '- Multidimensional arrays<br />- Documenting source code'
-  notes: '- [Multidimensional arrays](./slides/arrays-multidimensional)<br />- [Javadoc](./javadoc)'
-  resources: '- Chapter 8<br />- [Multidimensional arrays example code](https://github.com/nyu-java-programming/multidimensional-array-examples)'
+  topics: 'Midterm Exam #1'
 
 - date: '10/21'
   number: 14
@@ -130,13 +127,13 @@ date: '9/23'
   number: 19
   topics: 'Review'
   notes: '[Exam 2 review](./slides/exam-2-review)'
-  resources: '[Practice](./content/assets/midterm2practice.pdf) <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
+  resources: #'[Practice](./content/assets/midterm2practice.pdf) <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
   quiz: 'Inheritance and polymorphism'
 
 - date: '11/11'
   number: 20
   topics: 'Review (continued)'
-  resources: '[Practice Code](./content/assets/midterm2practicecode.zip)'
+  resources: #'[Practice Code](./content/assets/midterm2practicecode.zip)'
     #  topics: 'Processing (continued)'
     #  notes: ''
     #  resources: '- Chapter 11<br />- [Processing advanced example code](https://github.com/nyu-java-programming/processing-more-examples)<br />- [CircleDrawing Example](./content/assets/CircleDrawing.zip)'
