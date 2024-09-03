@@ -1,3 +1,5 @@
+---
+
 - date: "9/4"
   number: 1
   topics: "[Syllabus](./syllabus)"
@@ -28,14 +30,15 @@
   number: 5
   topics: 'Starter Code'
   notes: '[Starter code](./slides/starter-code)'
+  quiz: 'Java paradigm'
   exercise: #'Assignment 1:<br />- Java Hello World'
 
-date: '9/23'
+- date: '9/23'
   number: 6
   topics: 'Decision-making'
   notes: '[Branching](./slides/branching)'
+  quiz: 'Starter Code'
   resources: '- Oracle tutorials: [Primitive data types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)<br />- [Decision-making example code](https://github.com/nyu-java-programming/decision-making-examples)'
-  quiz: 'Java paradigm'
   exercise: 'Assignment 1:<br />- Java Hello World'
 
 - date: '9/25'
@@ -74,6 +77,7 @@ date: '9/23'
   notes: '[Exam 1 review](./slides/exam-1-review)'
   resources: ''
   exercise: 'Assignment 3:<br />- Blackjack'
+  quiz: 'Multidimensional arrays'
 
 - date: '10/15'
   number: 12
@@ -91,7 +95,6 @@ date: '9/23'
   topics: 'Midterm Exam #1 post-mortem'
   notes: ''
   resources: ''
-  exercise: 'Assignment 4:<br />- Text analysis'
 
 - date: '10/23'
   number: 15
@@ -99,13 +102,13 @@ date: '9/23'
   notes: '[Object orientation](./slides/object-orientation)'
   resources: '- Chapter 9<br />- [Object orientation example code](https://github.com/nyu-java-programming/simple-object-examples)'
   quiz: ''
+  exercise: 'Assignment 4:<br />- Text analysis'
 
 - date: '10/28'
   number: 16
   topics: 'OOP (continued)'
   notes: ''
   resources: ''
-  quiz: 'Multidimensional arrays'
     #exercise: 'Assignment 5:<br />- [Open data](https://github.com/nyu-java-programming/open-data-exercise)'
 
 - date: '10/30'
@@ -145,19 +148,19 @@ date: '9/23'
 
 - date: '11/18'
   number: 22
-  topics: 'Interfaces'
-  notes: '[Interfaces](./slides/interfaces)'
-  resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
-  exercise: 'Assignment 6:<br />- Virtual moped'
+  topics: 'Midterm Exam #2 post-mortem'
+  notes: ''
+  resources: #'[Retake problems](./content/assets/midterm2retake.pdf)'
     #exercise: 'Assignment 6:<br />- [Virtual moped](https://github.com/nyu-java-programming/virtual-moped-exercise)'
     #exercise: 'Assignment 6:<br />- New York Tourist'
 
 
 - date: '11/20'
   number: 23
-  topics: 'Midterm Exam #2 post-mortem'
-  notes: ''
-  resources: #'[Retake problems](./content/assets/midterm2retake.pdf)'
+  topics: 'Interfaces'
+  notes: '[Interfaces](./slides/interfaces)'
+  resources: '- Chapter 13<br />- [Interfaces example code](https://github.com/nyu-java-programming/interface-examples)'
+  exercise: 'Assignment 6:<br />- Virtual moped'
     # exercise: 'Assignment 7:<br />- Game development'
 
 - date: '11/25'
@@ -165,7 +168,6 @@ date: '9/23'
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
     #exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
-  exercise: 'Assignment 7:<br />- Language'
 
 - date: '11/27'
   number: 25
@@ -180,6 +182,7 @@ date: '9/23'
   notes: '[Recursion](./slides/recursion)'
   resources: '- Chapter 18<br />- [Recursion example code](https://github.com/nyu-java-programming/recursion-examples)'
   quiz: 'Exceptions'
+  exercise: 'Assignment 7:<br />- Language'
 
 - date: '12/4'
   number: 27
