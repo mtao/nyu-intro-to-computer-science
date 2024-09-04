@@ -71,7 +71,7 @@ foo@bar$ pwd
 
 It's fine to read about this, but you'll learn better if you try it out yourself.
 
-Read more about the [current working directory](https://nyu-python-programming.github.io/course-material/basic-computer-concepts#the-working-directory).
+Read more about the [current working directory](https://knowledge.kitchen/content/courses/intro-to-computer-science/basic-computer-concepts#the-working-directory).
 
 ---
 

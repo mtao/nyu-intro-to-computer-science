@@ -10,7 +10,7 @@
   number: 2
   topics: Basic computer concepts
   notes: "[Basic computer concepts](./slides/basic-computer-concepts)"
-  resources: "- [Basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts)<br />- [Computer Science: Not about Computers, Not Science](./content/assets/Computer_Science_Not_About_Computers_Not_a_Science.pdf)"
+  resources: "- [Basic computer concepts](https://knowledge.kitchen/content/courses/intro-to-computer-science/basic-computer-concepts)<br />- [Computer Science: Not about Computers, Not Science](./content/assets/Computer_Science_Not_About_Computers_Not_a_Science.pdf)"
 
 - date: "9/11"
   number: 3
