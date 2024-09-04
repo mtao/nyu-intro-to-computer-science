@@ -43,6 +43,8 @@ URL:
 
 https://cs.nyu.edu/courses/fall24/CSCI-UA.0101-010/
 
+(All available on a Brightspace announcement)
+
 
 - [Syllabus](./../../syllabus)
 - [Schedule](./../../schedule)
@@ -601,7 +603,20 @@ template: how-course-works
 
 ## Assignments
 
-You will have somewhere around 10 assignments.
+You will have somewhere around 7 assignments.
+
+--
+
+Automatically graded with Gradescope
+--
+
+- unlimitted resubmissions.
+
+--
+- Code that does not compile will get a 0
+
+--
+
 
 You lose 10 points for each day late and we do not accept submissions more than 3 days late.
 
@@ -629,9 +644,14 @@ template: how-course-works
 
 Regular simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
 
+
 --
 
-Answers should be discernable from checking the pertinent slides.
+- Answers should be discernable from checking the pertinent slides / helpful resources.
+
+--
+
+- Unlimitted resubmissions
 
 ---
 
@@ -646,6 +666,15 @@ You will take 3 exams.
 --
 
 They will be cummulative
+
+--
+
+Problem solving using the tools learned in lecture
+
+--
+
+- Practice without knowing the solutions is required
+- Memorization of solutions does not work
 
 ---
 
@@ -669,7 +698,14 @@ template: how-course-works
 1. Brightspace Discussions
 1. Tutoring
 1. Meet before/after class
-1. Email me (put course code in subject)
+    - Better on mondays with my current schedule
+1. Office hours
+    - Tuesday 3-4 by me
+    - Thursday 3-4 by grader
+1. Email me 
+    - put course code in subject
+    - send text when possible
+    - no pictures of screens
 
 
 ---
