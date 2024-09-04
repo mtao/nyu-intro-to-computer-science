@@ -595,7 +595,7 @@ template: how-course-works
 ## Reading
 
 Reading assignments from [the textbook](./../../syllabus) and elsewhere each
-class. The textbook is quite thorough.
+class. The textbook is quite thorough (but I will not strictly follow it).
 
 ---
 
@@ -603,7 +603,7 @@ template: how-course-works
 
 ## Assignments
 
-You will have somewhere around 7 assignments.
+You will have somewhere around 7 assignments, due Fridays at midnight.
 
 --
 
