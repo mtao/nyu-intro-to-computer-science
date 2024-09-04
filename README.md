@@ -4,7 +4,7 @@ Slide presentations used to teach basic computer science concepts, largely focus
 
 ## Deployed site
 
-This site is deployed [here](https://cs.nyu.edu/courses/spring23/CSCI-UA.0101-009/), and NYU credentials are required to access the site.
+This site is deployed [here](https://cs.nyu.edu/courses/fall24/CSCI-UA.0101-010/), and NYU credentials are required to access the site.
 
 ## Running locally
 

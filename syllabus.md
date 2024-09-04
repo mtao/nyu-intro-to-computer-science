@@ -13,12 +13,12 @@ How to design algorithms to solve problems and how to translate these algorithms
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
-251 Mercer St (Warren Weaver) Room 101
+238 Thompson St (GCASL) Room 279
 , but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
 
 ### Office Hours
-Office hours on Wed from 1-2pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
+Office hours on Tues from 3-4pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
 
 ### Textbook
 
