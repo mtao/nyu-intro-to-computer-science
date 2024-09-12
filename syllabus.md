@@ -20,7 +20,8 @@ Lectures are held on Monday and Wednesday from 3:30-4:45 at
 ### Office Hours
 Office hours on Tues from 3-4pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
 
-The grader will provide additional office hours on Thursdays from 3-4pm, the location to be determined.
+The grader will provide additional office hours on Thursdays from 3-4pm, via zoom:
+[https://nyu.zoom.us/j/98130881060](https://nyu.zoom.us/j/98130881060)
 
 ### Textbook
 
