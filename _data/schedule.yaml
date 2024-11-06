@@ -131,7 +131,7 @@
   number: 19
   topics: 'Review'
   notes: '[Exam 2 review](./slides/exam-2-review)'
-  resources: #'[Practice](./content/assets/midterm2practice.pdf) <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
+  resources: '[Practice](./content/assets/midterm2practice.pdf)' # <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
   quiz: 'Inheritance and polymorphism'
 
 - date: '11/11'
