@@ -37,11 +37,13 @@ name: introductions-1
 ## This course
 
 Introduction to Computer Science
-<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>
+<!--<img src="../../content/assets/qrcode.png" alt="drawing" width="200" style="float: right"/>-->
 
 URL: 
 
-https://cs.nyu.edu/courses/spring24/CSCI-UA.0101-009/
+https://cs.nyu.edu/courses/fall24/CSCI-UA.0101-010/
+
+(All available on a Brightspace announcement)
 
 
 - [Syllabus](./../../syllabus)
@@ -135,7 +137,7 @@ Programs usually think of data in terms of rigid stereotypes.
 - dictionaries/hash tables/associative arrays
 - nonetypes/null/nil
 
-Review [data types](https://nyu-python-programming.github.io/course-material/data-types).
+Review [data types](https://knowledge.kitchen/content/courses/intro-to-programming/data-types).
 
 ---
 
@@ -153,7 +155,7 @@ response = input("What does CS stand for?")
 print("'{}' is correct!".format(response.capitalize()))
 ```
 
-Review [input and output](https://nyu-python-programming.github.io/course-material/input-output).
+Review [input and output](https://knowledge.kitchen/content/courses/intro-to-programming/input-output).
 
 ---
 
@@ -168,7 +170,7 @@ if this or that and the_other is not also_that:
     thats_wonderful()
 ```
 
-Review [boolean logic](https://nyu-python-programming.github.io/course-material/boolean-logic) and [decision-making](https://nyu-python-programming.github.io/course-material/decision-making).
+Review [boolean logic](https://knowledge.kitchen/content/courses/intro-to-programming/boolean-logic) and [decision-making](https://knowledge.kitchen/content/courses/intro-to-programming/decision-making).
 
 ---
 
@@ -183,7 +185,7 @@ def thats_wonderful():
     print("That's wonderful")
 ```
 
-Review [functions](https://nyu-python-programming.github.io/course-material/functions).
+Review [functions](https://knowledge.kitchen/content/courses/intro-to-programming/functions).
 
 ---
 
@@ -205,7 +207,7 @@ def thats_wonderful():
         print("Okay...")
 ```
 
-Review [modules](https://nyu-python-programming.github.io/course-material/modules).
+Review [modules](https://knowledge.kitchen/content/courses/intro-to-programming/modules).
 
 ---
 
@@ -227,7 +229,7 @@ while i < 10:
     i = i + 1
 ```
 
-Review [for loops](https://nyu-python-programming.github.io/course-material/loops-for) and [while loops](https://nyu-python-programming.github.io/course-material/loops-while).
+Review [for loops](https://knowledge.kitchen/content/courses/intro-to-programming/loops-for) and [while loops](https://knowledge.kitchen/content/courses/intro-to-programming/loops-while).
 
 ---
 
@@ -245,7 +247,7 @@ favorite_foods = [
     ]
 ```
 
-Review [lists](https://nyu-python-programming.github.io/course-material/list-basics) and [more lists](https://nyu-python-programming.github.io/course-material/list-more).
+Review [lists](https://knowledge.kitchen/content/courses/intro-to-programming/list-basics) and [more lists](https://knowledge.kitchen/content/courses/intro-to-programming/list-more).
 
 ---
 
@@ -263,7 +265,7 @@ phone_numbers: {
 }
 ```
 
-Review [dictionaries](https://nyu-python-programming.github.io/course-material/dictionary-basics) and [more dictionaries](https://nyu-python-programming.github.io/course-material/dictionary-more).
+Review [dictionaries](https://knowledge.kitchen/content/courses/intro-to-programming/dictionary-basics) and [more dictionaries](https://knowledge.kitchen/content/courses/intro-to-programming/dictionary-more).
 
 ---
 
@@ -285,7 +287,7 @@ for line in f:
     print(data)
 ```
 
-Review [text files](https://nyu-python-programming.github.io/course-material/text-files).
+Review [text files](https://knowledge.kitchen/content/courses/intro-to-programming/text-files).
 
 ---
 
@@ -303,7 +305,7 @@ if pos > 0:
     data = text.split(",")
 ```
 
-Review [strings](https://nyu-python-programming.github.io/course-material/string-basics) and [string formatting](https://nyu-python-programming.github.io/course-material/string-formatting).
+Review [strings](https://knowledge.kitchen/content/courses/intro-to-programming/string-basics) and [string formatting](https://knowledge.kitchen/content/courses/intro-to-programming/string-formatting).
 
 ---
 
@@ -331,7 +333,7 @@ I_am_not
 math.pow(washington, 2) + park
 ```
 
-Review [variables, literals, and expressions](https://nyu-python-programming.github.io/course-material/variables-literals-expressions).
+Review [variables, literals, and expressions](https://knowledge.kitchen/content/courses/intro-to-programming/variables-literals-expressions).
 
 ---
 
@@ -452,7 +454,7 @@ Can you answer these questions?
 --
 
 - Review:
-  - [basic computer concepts](https://nyu-python-programming.github.io/course-material/basic-computer-concepts).
+  - [basic computer concepts](https://knowledge.kitchen/content/courses/intro-to-programming/basic-computer-concepts).
   - Chapter 1.1-1.4 in the [textbook](./../syllabus#textbook)
 
 ---
@@ -490,7 +492,7 @@ x = r"First line\nSecond line"
 print(x)
 ```
 
-Learn about [raw strings](https://nyu-python-programming.github.io/course-material/string-raw).
+Learn about [raw strings](https://knowledge.kitchen/content/courses/intro-to-programming/string-raw).
 
 ---
 
@@ -593,7 +595,7 @@ template: how-course-works
 ## Reading
 
 Reading assignments from [the textbook](./../../syllabus) and elsewhere each
-class. The textbook is quite thorough.
+class. The textbook is quite thorough (but I will not strictly follow it).
 
 ---
 
@@ -601,7 +603,20 @@ template: how-course-works
 
 ## Assignments
 
-You will have somewhere around 10 assignments.
+You will have somewhere around 7 assignments, due Fridays at midnight.
+
+--
+
+Automatically graded with Gradescope
+--
+
+- unlimitted resubmissions.
+
+--
+- Code that does not compile will get a 0
+
+--
+
 
 You lose 10 points for each day late and we do not accept submissions more than 3 days late.
 
@@ -629,9 +644,14 @@ template: how-course-works
 
 Regular simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
 
+
 --
 
-Answers should be discernable from checking the pertinent slides.
+- Answers should be discernable from checking the pertinent slides / helpful resources.
+
+--
+
+- Unlimitted resubmissions
 
 ---
 
@@ -646,6 +666,15 @@ You will take 3 exams.
 --
 
 They will be cummulative
+
+--
+
+Problem solving using the tools learned in lecture
+
+--
+
+- Practice without knowing the solutions is required
+- Memorization of solutions does not work
 
 ---
 
@@ -669,7 +698,14 @@ template: how-course-works
 1. Brightspace Discussions
 1. Tutoring
 1. Meet before/after class
-1. Email me (put course code in subject)
+    - Better on mondays with my current schedule
+1. Office hours
+    - Tuesday 3-4 by me
+    - Thursday 3-4 by grader
+1. Email me 
+    - put course code in subject
+    - send text when possible
+    - no pictures of screens
 
 
 ---

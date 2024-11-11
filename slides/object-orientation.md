@@ -661,7 +661,7 @@ dog1.bark(); // outputs "Fido says, 'Woof!' "
 Whereas, if we were to call that method on a dog named Tobik, then Tobik's name would be output.
 
 ```java
-Dog dog2 = new Dog("Fido", "Bugle", 10);
+Dog dog2 = new Dog("Tobik", "German Shepherd", 3);
 
 //...
 
@@ -1118,6 +1118,10 @@ name: tedium
 public class Dog {
         //...
 
+        public boolean equals(Object that) {
+            return that instanceof Dog && equals((Dog) that);
+        }
+
         public boolean equals(Dog that) {
             boolean sameName = this.name.equals( that.getName() ); // are the names the same?
             boolean sameAge = ( this.age == that.getAge() ); // same age?
@@ -1153,6 +1157,9 @@ Since object's properties are often of many different types, writing a custom []
 ```java
 public class Dog {
         //...
+        public boolean equals(Object that) {
+            return that instanceof Dog && equals((Dog) that);
+        }
 
         public boolean equals(Dog that) {
             return new EqualsBuilder()
@@ -1164,6 +1171,12 @@ public class Dog {
         }
         //...
 ```
+
+---
+
+template: comparisons
+
+## EqualsBuilder
 
 - To use `EqualsBuilder`, Commons Lang's main `.jar` file must be downloaded and added as a project dependency, for example by placing it within a project's `lib` directory.
 - The library must then be imported with `import org.apache.commons.lang3.SystemUtils;`.

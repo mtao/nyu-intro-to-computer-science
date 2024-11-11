@@ -13,12 +13,15 @@ How to design algorithms to solve problems and how to translate these algorithms
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
-251 Mercer St (Warren Weaver) Room 101
+238 Thompson St (GCASL) Room 279
 , but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
 
 ### Office Hours
-Office hours on Wed from 1-2pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
+Office hours on Tues from 3-4pm, and are on the fifth floor of [60 Fifth Ave](https://goo.gl/maps/4qP6JmPEsjGqUHvt8) at room 506.
+
+The grader will provide additional office hours on Thursdays from 3-4pm, via zoom:
+[https://nyu.zoom.us/j/98130881060](https://nyu.zoom.us/j/98130881060)
 
 ### Textbook
 
@@ -48,6 +51,10 @@ Upon completing this course, students will be familiar with some of the foundati
 
 Michael Tao<br />michael.tao@nyu.edu<br />60 5th Ave, 5th floor (room 506).
 
+## Grader
+
+
+
 ## Getting help
 
 Help resources available to you are listed in order of urgency of your problem:
@@ -61,8 +68,13 @@ The instructor will be periodically checking the Discussions as well and will an
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
 Information on tutors will be available in the near future.
 
+<!--
 - [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
-- [Schedulre](./content/assets/S2024TutoringSchedule_student.pdf)
+- [Schedule](./content/assets/S2024TutoringSchedule_student.pdf)
+-->
+- Guidelines
+- Schedule
+
 
 ### Talk with the instructor
 
