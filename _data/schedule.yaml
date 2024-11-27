@@ -168,6 +168,7 @@
   number: 24
   topics: 'Abstract classes'
   notes: '[Abstract classes](./slides/abstract-classes)'
+  resources: '- [Abstract Class example code](https://github.com/nyu-java-programming/abstract-classes-examples)<br />- [Lecture Example Code](./content/assets/InterfacesNotes.java'
     #exercise: 'Assignment 7:<br />- [Game development](https://github.com/nyu-java-programming/game-development-exercise)'
 
 - date: '11/27'
