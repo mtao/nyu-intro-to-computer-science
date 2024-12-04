@@ -20,7 +20,6 @@ Intro to Computer Science
 1. [Interfaces](#interfaces)
 1. [Abstract Classes](#abstract-classes)
 1. [Exceptions and Errors](#exceptions)
-1. [Recursion](#recursion)
 1. [Conclusions](#conclusions)
 
 ---
@@ -33,8 +32,8 @@ name: structure
 
 ## Overview
 
-The exam will take place during class time in person on paper
-. It will be composed of two parts:
+The exam will take place Wed 18th at 4:00 to 5:50 in person on paper
+. (This is what albert says). It will be composed of two parts:
 
 name: prior-knowledge
 
@@ -230,40 +229,6 @@ Exceptions represent known problematic situations that can potentially be handle
 
 Exceptions are represented in code as objects of various classes that extend Exception class.
 
----
-
-name: recursion
-
-# Recursion
-
---
-
-## Overview
-
-Methods that invoke themselves. A form of iteration, but different from loops.
-
----
-
-template: recursion
-
-## Classic examples
-
-The classic pattern: handle the base case, and then recurse on the remainder. Examples:
-
-- Fibonacci numbers
-- Computing powers
-- Counting digits
-- Flipping strings backwards
-- Linear search
-- Fractal images
-
----
-
-template: recursion
-
-## Termination
-
-The recursion must terminate somehow in order not to trigger a stack overflow error. How does it stop recursing?
 
 ---
 
