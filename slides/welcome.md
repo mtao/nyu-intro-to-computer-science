@@ -41,7 +41,7 @@ Introduction to Computer Science
 
 URL: 
 
-https://cs.nyu.edu/courses/fall24/CSCI-UA.0101-010/
+https://cs.nyu.edu/courses/spring25/CSCI-UA.0101-010/
 
 (All available on a Brightspace announcement)
 
@@ -642,6 +642,14 @@ template: how-course-works
 
 ## Quizzes
 
+Three in-person quizes a week before each exam. These are meant to prepare you for the sorts of questions on the exam.
+
+--
+
+- 1 mid-level problem from the exam.
+
+--
+
 Regular simple multiple-choice online quizzes. These are meant to help you self-assess your own mastery of conceptual material.
 
 
@@ -682,11 +690,12 @@ template: how-course-works
 
 ## Grading
 
-- 10% quizzes
+- 10% online quizzes
+- 15% in-person quizzes
 - 20% assignments
 - 20% first midterm
 - 20% second midterm
-- 30% final exam
+- 20% final exam
 
 ---
 
@@ -701,7 +710,6 @@ template: how-course-works
     - Better on mondays with my current schedule
 1. Office hours
     - Tuesday 3-4 by me
-    - Thursday 3-4 by grader
 1. Email me 
     - put course code in subject
     - send text when possible
