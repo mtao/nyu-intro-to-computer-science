@@ -754,32 +754,12 @@ The [schedule](./../../schedule) contains a day-by-day breakdown of everything y
 
 # What to do now
 
-## Download and JDK
+## Download and install Eclipse
 
-The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Install the Standard Edition (SE) Version 17. Assignments will be tested against Java 17.
+Eclipse is an Integrated Development Environment (IDE) that integrates with the JDK to allow you to easily write and debug Java programs.
 
+https://eclipse.org
 
-https://www.oracle.com/java/technologies/downloads/
-
----
-
-# What to do now
-
-## Download and install Visual Studio Code
-
-Visual Studio Code is an Integrated Development Environment (IDE) that integrates with the JDK to allow you to easily write and debug Java programs.
-
-https://code.visualstudio.com
-
----
-
-# What to do now
-
-## Download and install the Extension Pack for Java
-
-These extensions to Visual Studio Code make it suitable for Java programming.
-
-https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 ---
 
@@ -794,6 +774,17 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
  - [Install Git for Windows](https://gitforwindows.org/).
  - To set Git Bash up in VSCode [the second answer here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal) by **Mahade Walid** and edited by **FruityOatyBar** (ignore the first answe, which is outdated).
 - Mac users already have a UNIX command shell in the Terminal app.
+
+---
+
+# What to do now
+
+## Download and JDK
+
+The Java Development Kit (JDK) is a necessary set of tools that help develop Java programs. Eclipse should come with its own copy of the JDK Standard Edition (SE) Version 21, but you should also make sure you have it availabe in your shell.
+For command 
+
+https://www.oracle.com/java/technologies/downloads/
 
 ---
 
