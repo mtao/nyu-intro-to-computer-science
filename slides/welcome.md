@@ -692,7 +692,7 @@ template: how-course-works
 
 - 10% online quizzes
 - 15% in-person quizzes
-- 20% assignments
+- 15% assignments
 - 20% first midterm
 - 20% second midterm
 - 20% final exam

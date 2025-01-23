@@ -13,7 +13,9 @@ How to design algorithms to solve problems and how to translate these algorithms
 ### Lectures
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
+
 251 Mercer St (Warren Weaver) Room 101
+
 , but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
 
@@ -129,7 +131,7 @@ You will receive a grade calculated mechanically on the following rubric.
 
 - 10% online quizzes
 - 15% in-person quizzes
-- 20% assignments
+- 15% assignments
 - 20% first midterm
 - 20% second midterm
 - 20% final exam
