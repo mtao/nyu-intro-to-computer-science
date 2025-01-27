@@ -138,11 +138,15 @@ You will receive a grade calculated mechanically on the following rubric.
 
 ### Quizzes
 
+#### Online
 Quizzes are completed outside of class on [Brightspace]({{ site.brightspace_url }}) and due by the date they are specified on the [schedule](./schedule).
+
+#### In-Person 
+There will be there quizzes a week ahead of each exam in preparation for the exam itself. They will be in person on paper.
 
 ### Assignments
 
-Assignments are posted on Brightspace and submitted through using Gradescope, which you can access through Brightspace.
+Assignments are posted on Brightspace and submitted through using Gradescope, which you can access through Brightspace. Assistance on assignments will be assume the use of Eclipse, as those providing assistance can't be expected to know how to use every possible development environment.
 
 ### Late policy
 
