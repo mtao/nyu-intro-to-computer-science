@@ -42,6 +42,22 @@ Several levels:
 
 ---
 
+## Computers
+
+One Principle:
+- Functions
+    - Input
+    - Output 
+
+--
+
+- Also: Passing data
+    - (between functions)
+
+
+
+---
+
 name: hardware
 ## Computer Hardware
 
@@ -149,7 +165,7 @@ Most provide more or less the same "basic" functionality but can have different
 
 ## Operating systems
 
-![](https://raw.githubusercontent.com/EG-tech/digipres-posters/master/OS_kernel_timeline.jpg)
+![](https://preview.redd.it/azoeztp0a2a81.png?width=4613&format=png&auto=webp&s=73997fe6f2b0467f73905452be9fde1aa45302c6)
 
 
 ---
