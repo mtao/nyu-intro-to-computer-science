@@ -72,12 +72,7 @@ The instructor will be periodically checking the Discussions as well and will an
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
 Information on tutors will be available in the near future.
 
-<!--
-- [Guidelines](./content/assets/cs101_tutoring_guidelines.pdf)
-- [Schedule](./content/assets/S2024TutoringSchedule_student.pdf)
--->
-- Guidelines
-- Schedule
+- [Schedule](./content/assets/Spring 2025 Tutoring schedule (Student Version).pdf)
 
 
 ### Talk with the instructor

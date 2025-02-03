@@ -31,6 +31,7 @@
   topics: 'Starter Code'
   notes: '[Starter code](./slides/starter-code)'
   quiz: 'Java paradigm'
+  resources: '- [Eclipse Setup](./content/assets/Eclipse IDE Tutorial.pdf)'
   exercise: #'Assignment 1:<br />- Java Hello World'
 
 - date: '2/10'
@@ -83,7 +84,7 @@
   number: 12
   topics: 'Review (continued)'
   notes: ''
-  resources: '[Practice](./content/assets/midterm1practice.pdf)'
+  #resources: '[Practice](./content/assets/midterm1practice.pdf)'
   #<br />[Practice Solutions](./content/assets/midterm1practice_solutions.pdf)'
   quiz: ''
 
@@ -131,7 +132,7 @@
   number: 19
   topics: 'Review and Quiz 2'
   notes: '[Exam 2 review](./slides/exam-2-review)'
-  resources: '[Practice](./content/assets/midterm2practice.pdf)' # <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
+  #resources: '[Practice](./content/assets/midterm2practice.pdf)' # <br />[Cheat Sheet](./content/assets/midterm2CheatSheet.java)'
   quiz: 'Inheritance and polymorphism'
 
 - date: '4/7'
