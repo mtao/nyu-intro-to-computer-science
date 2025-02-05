@@ -79,6 +79,12 @@ Computer programming code is plain text. In order to edit code, you will need a 
 
 Just about any code editor or Integrated Development Environment (IDE), such as [Visual Studio Code](https://code.visualstudio.com), is a good plain text editor.
 
+--
+- For this class we are using [Eclipse](https://eclipse.org).
+  - Built for Java, but can be used for other languages.
+  - Used in subsequent classes so best to get used to it now.
+  - Tutors are only expected to know how to use this (Don't forget to see the graders).
+
 ---
 
 template: assumptions
@@ -97,7 +103,8 @@ template: assumptions
 
 Emacs is a plain text editor that can be run from the command line. Vim is another.
 
-If you want to have the most fun with the \*NIX command line, use Emacs/Vim instead of VS Code.
+If you want to have the most fun with the \*NIX command line, use Emacs/Vim instead of Eclipse.
+
 
 ---
 
@@ -411,6 +418,71 @@ public class StickToScanningStrings {
 		System.out.println("Welcome, " +  name + "! You are " + ageAsInt/7 + " years old in dog years!");
 		scnr.close();
     }
+}
+```
+---
+
+name: input
+
+## Reading a file
+
+Everything in Unix is a file
+
+--
+
+- `System.in` is a "file"
+
+--
+
+- We can also pass in a file
+
+--
+
+```java
+package edu.nyu.cs.ab1234;
+
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+import java.io.File;
+
+public class AgreeableBot {
+
+	public static void main(String[] args) throws FileNotFoundException {
+        Scanner inScanner = new Scanner(System.in);
+        Scanner dictScanner = new Scanner(new File("dictionary.txt"));
+    }
+}
+```
+
+---
+
+name: input
+
+## Reading a file
+
+
+```java
+package edu.nyu.cs.ab1234;
+
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+import java.io.File;
+
+public class AgreeableBot {
+
+	public static void main(String[] args) throws FileNotFoundException {
+        Scanner dictScanner = new Scanner(new File("dictionary.txt"));
+        while(dictScanner.hasNextLine()) {
+            String word = dictScanner.nextLine();
+            if("ajax".equals(word)) {
+                System.out.println("Word ajax was found!");
+                dictScanner.close();
+                return;
+            }
+        }
+        dictScanner.close();
+        System.out.println("ajax not found");
+	}
 }
 ```
 
