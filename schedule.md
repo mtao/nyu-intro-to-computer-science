@@ -13,8 +13,8 @@ Lectures are held on Monday and Wednesday from 3:30-4:45 at
 
 
 
-| Date | Class | Topics | Notes | Helpful resources | Quiz due | Exercise due |
-| :--- | :---- | :----- | :---- | :---------------- | :------- | :----------- |
-{% for class in site.data.schedule %} | {{ class.date }} | {{class.number}} | {{ class.topics }} | {{ class.notes }} | {{class.resources }} | {{ class.quiz }} | {{class.exercise }} | 
+| Date | Class | Topics | Notes | Helpful resources | Quiz due |
+| :--- | :---- | :----- | :---- | :---------------- | :------- |
+{% for class in site.data.schedule %} | {{ class.date }} | {{class.number}} | {{ class.topics }} | {{ class.notes }} | {{class.resources }} | {{ class.quiz }} | 
 {% endfor %}
 
