@@ -41,7 +41,7 @@ Introduction to Computer Science
 
 URL: 
 
-https://cs.nyu.edu/courses/spring25/CSCI-UA.0101-010/
+https://cs.nyu.edu/courses/fall25/CSCI-UA.0101-010/
 
 (All available on a Brightspace announcement)
 
