@@ -14,7 +14,7 @@ How to design algorithms to solve problems and how to translate these algorithms
 
 Lectures are held on Monday and Wednesday from 3:30-4:45 at
 
-251 Mercer St (Warren Weaver) Room 101
+238 Thompson St (GCASL) Room 361
 
 , but check announcmenets on [Brightspace]({{ site.brightspace_url }}) as well.
 
@@ -72,7 +72,8 @@ The instructor will be periodically checking the Discussions as well and will an
 Tutors for this course are waiting to answer your questions during dedicated tutoring hours. Use tutoring for more involved questions and when you prefer a more immeidate answer.
 Information on tutors will be available in the near future.
 
-- [Schedule](./content/assets/Spring 2025 Tutoring schedule (Student Version).pdf)
+- Schedule (to be added)
+<!--- [Schedule](./content/assets/Spring 2025 Tutoring schedule (Student Version).pdf)-->
 
 
 ### Talk with the instructor
