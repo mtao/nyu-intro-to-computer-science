@@ -226,7 +226,7 @@ name: desktop_analogy
  - We already had systems for organizing data at our desks, so we modeled off of them
 
 <a href="https://www.youtube.com/watch?v=1UtlOgkOGy4"><img src="../../content/assets/apple_desktop.png" alt="drawing" width="350"/></a>
-<a href="http://toastytech.com/guis/a2desk.html"><img src="http://toastytech.com/guis/a2calc.gif" width=350\></a>
+<a href="http://toastytech.com/guis/a2desk.html"><img src="../../content/assets/a2calc.png" width=350\></a>
   
 .right[images are links to sources]
 
@@ -250,7 +250,7 @@ name: files_and_folders
   - Folders / Directories:
 
 <img src="https://raw.githubusercontent.com/KDE/breeze-icons/master/icons/places/96/folder-blue.svg" width="10%"\>
-<img src="https://wiki.gnome.org/Apps/Files/Header?action=AttachFile&do=get&target=logo.png" width="10%"\>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/GNOME_Files_logo.png" width="10%"\>
 
 .right[Icons from [KDE Breeze icon set](https://github.com/KDE/breeze-icons) and cabinet from [Gnome Nautilus](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)]
 
