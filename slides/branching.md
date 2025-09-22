@@ -342,6 +342,118 @@ The ternary operator, `?`, thankfully allows us to simplify such syntax:
 ```javascript
 satiationLevel = breakfastWasServed && breakfastWasEaten ? "full" : "hungry";
 ```
+---
+
+name: example
+## Example problems
+
+Given the length of a rope and a distance it must span across (in inches), determine if the rope is sufficiently long. The rope will be tied into knots at each end and the knots will take 2 inches, so the "effective" length of rope is 4 inches less than the given length.
+
+
+```java
+public static boolean ropeLength(double ropeLength, double distance) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+## Example problems
+
+Given two numbers `x,y` determine the range between them, without using any built-in functions. That is, if `x > y` then return `y - x`, otherwise return `y - x`.
+
+```java
+public static int range(int x, int y) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+
+
+---
+
+## Example problems
+
+Given three numbers determine if they form a right triangle or not (this is equivalent to detecting if the Pythagorean theorem applies to these three numbers.
+First identify the largest number by checking, for each number, if the other two numbers are smaller than it, and then check if `x*x + y*y = z*z`.
+```java
+public static boolean isRightTriangle(int x, int y, int z) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+
+---
+## Example problems
+
+Write a function that checks if an input string is `"yes"` or `"ye"` or `"yup"` using a switch case. If it is one of those three inputs return true, otherwise return false.
+
+
+```java
+public static boolean isYes (String input) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
 
 ---
 
