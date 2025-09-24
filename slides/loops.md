@@ -379,9 +379,129 @@ while(true) {
     etc();
 }
 ```
+---
+
+name: practice problems
+
+## Example problems
+
+Write a function that computes the factorial of an input number - that is, the product of every number from `1` to `n` (`1*2*3*...*n`)
+
+
+```java
+public static int factorial(int n) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
 
 ---
 
+
+## Example problems
+Determine the least common multiple of two integral numbers.
+That is, find the smallest number `> 1` that is divisible by both numbers.
+
+```java
+public static float isPrime(int n) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Given two strings `str` and `s` determine if `s` is a substring of `str`. That is, starting from each starting index `i` between `0` and `str.length() - s.length()` check if the characters from `i....i+s.length()` on `str`A are all equal to the characters of `s`.
+
+```java
+public static String isSubstring(String str, String s) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+
+Write a function that repeatedly prints either `duck` or `goose`, where `goose` will appear randomly 1 in 10 times. After it has printed `goose` there is a 50% it the function will exit.
+
+```java
+public static void duckDuckGoose() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
 name: conclusions
 
 # Conclusions
