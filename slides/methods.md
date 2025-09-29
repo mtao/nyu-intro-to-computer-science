@@ -222,6 +222,125 @@ public static void foo(String bar, boolean baz) {
 
 ---
 
+
+## Example problems
+
+Write a function that, given a number `n` and string `s`, returns `n` copies of a given string. That is, `copy("lo",3)` returns `"lololo"`.
+```java
+                         copy(                             )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Write a function that printx the larger of two input integers as an integer, and then a function that takes in two strings representing integers and returns the max integer value as a string.
+```java
+                         max(                             ) {
+
+
+
+
+
+
+
+                         max(                             ) {
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Write a function that takes in a string and a character, and returns the number of times that character is seen in the string.
+Then write a function that first reads a character from user input, then adds up the instances of that character in each line typed in until the empty string is passed.Once the empty string is passed the function returns.
+
+```java
+                         charCount(                             ){
+
+
+
+
+
+
+
+}
+                         charCount() {
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Write a function that, given a number of days in a month and the day of the first (Sunday is `0`), prints out a calendar. For example, `calendar(30,1)` will produce
+
+```
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30
+```
+
+Note that the days before the 1st are padded with empy spaces and a newline after each Saturday. Also `System.out.format("%3d",n)` prints `n` with up to 3 leading spaces.
+
+```java
+                         calendar(                             )
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
 name: conclusions
 
 # Conclusions
