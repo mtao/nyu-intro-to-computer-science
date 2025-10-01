@@ -237,7 +237,7 @@ Use `Arrays.copyOf()` to make a clone:
 
 ```java
 int newArrLength = 10;
-Arrays.copyOf(arrVar, newArrLength); // copy into array of different length
+int[] arr = Arrays.copyOf(arrVar, newArrLength); // copy into array of different length
 ```
 
 --
@@ -249,7 +249,7 @@ name: arrays-class-copy
 ```java
 int startIndex = 0;
 int endIndex = 3;
-Arrays.copyOfRange(arrVar, startIndex, endIndex); // copy only a subset
+int[] arr = Arrays.copyOfRange(arrVar, startIndex, endIndex); // copy only a subset
 ```
 
 ---
@@ -659,6 +659,155 @@ The phrase, "Java is a 'pass by value' language is thus a bit confusing.
 The trick to this is that the **references are themselves passed as values** - the value being the integer memory address at which the array or object resides.
 
 ---
+
+## Example problems
+Write a function that takes in a sequence of strings representing words and adds them together with spaces inbetween each pair of words and a period at the end.
+
+```java
+                         concatenate(                             ){
+
+
+
+
+
+
+
+ 
+                                      
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Write a function that, given an array of integers `x`, returns an array of integers `r` whose entries are reversed. That is, `x[j] == r[x.length-1-j]`.
+
+```java
+                         reverse(                             ){
+
+
+
+
+
+
+
+ 
+                                      
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Write a function that, given an array of integers `x`, reverses its values in-place
+
+```java
+                         reverse(                             ){
+
+
+
+
+
+
+
+ 
+                                      
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems
+Write a function that, given a number `n`, returns the first `n` factorial numbers.
+
+```java
+                         factorial(                             ){
+
+
+
+
+
+
+
+ 
+                                      
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+## Example problems
+Say we have three `byte` arrays that represent the red, green, and blue colors. The `i`th color is `r[i],g[i],b[i]`. Write a function that takes in three `byte[]` for colors and and an integer `i` to output the `i`th color.
+
+```java
+                         rgb(                             ){
+
+
+
+
+
+
+
+ 
+                                      
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
 
 name: conclusions
 
