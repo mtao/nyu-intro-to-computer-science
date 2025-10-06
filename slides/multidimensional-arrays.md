@@ -331,6 +331,96 @@ for ( int i=0; i<naughtsAndCrosses.length; i++ ) {
 
 ---
 
+
+## Example problems (NOTE: Not for Midterm 1)
+Write a function that, given an input number of rows and columns, returns a `double` array with `0`s. Then write a method called `identity` that takes in a single `size` parameters and returns a two dimensional double array `I` where `I[j][k]` is `1` if `j == k` and `0` otherwise.
+
+```java
+                         zeros(                             ){
+
+
+
+
+
+
+
+}
+                         identity(                  ) {
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems (NOTE: Not for Midterm 1)
+Write a function that swaps two rows of a 2-dimensional array and a function that swaps two columns of a 2-dimensional array. These arrays are guaranteed to be rectangular and the function should operate in-place.
+
+```java
+                         swapRows(double[][] A){
+
+
+
+
+
+
+
+}
+                         swapCols(double[][] A) {
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
+
+## Example problems (NOTE: Not for Midterm 1)
+Write a function that, given a list of names, arranges the names into a two dimensional array according to the first character of their name. The first character is guaranteed to be capital letter `A-Z`.
+
+```java
+                         alphabetNames(String[] names){
+
+
+
+
+
+
+
+ 
+                                                 
+
+
+
+
+
+
+
+
+
+
+
+}
+```
+---
+
 name: conclusions
 
 # Conclusions
