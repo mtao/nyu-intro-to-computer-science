@@ -349,7 +349,7 @@ for(int index = 0; index < count; ++index) {
 --
 
 ```java
-for(int index: array) {
+for(int value: array) {
 
 }
 ```
