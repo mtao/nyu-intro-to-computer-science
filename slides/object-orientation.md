@@ -1422,6 +1422,42 @@ template: alternative-paradigms
 
 ---
 
+
+## Example problems
+
+Write a class that stores the state of a simple amplifier that has a volume slider with a mute button. 
+* Write members
+* Write getters/setters. If the volume is below 0 or above 1 its value is clamped to be within [0,1].
+* Write a constructor that lets the user pass in the default volume to .5 and another that lets the user pass in the volume and mute state.
+* Write a function called "effective" volume that is 0 if muted, and the value of the volume knob otherwise.
+* Write a function called "amplify" that takes in a double and multiplies the value by the effective volume
+* Write a function called "amplify" that returns that amplifies the values of a double array. Input and output are double arrays.
+* Write a function so the volume knob's state can be printed (Either to output "Muted" or ".5" if it is muted or the volume is .5 respectively)
+* Write a function to check if two amplifiers have the same state.
+
+---
+
+## Example problems
+
+Write a class that stores the username and password of a user. The class should keep track of the last 5 passwords the user used so they cannot update their password to be a previous one.
+* Write members
+* Write getters/setters. Although setters usually do not return anything, the setter should return false if the password is a prior password and the password should not change in that case.
+* Write a constructor that sets the username and password.
+* Write a function tryLogin that checks that the password is correct.
+
+---
+
+## Example problems
+
+Write a class for fractions, storing an integral numerator and denominator.
+* Write members
+* Write getters/setters. Denominator cannot be 0.
+* Write a constructor that sets the members and a constructor that takes in the numerator and assumes the denominator is 1.
+* Write a function that prints out "3 / 6" if the numerator is 3 / denominator is 6
+* Write a function to check if two fractions are equal to one another.
+---
+
+
 name: conclusions
 
 # Conclusions
