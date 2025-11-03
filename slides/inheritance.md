@@ -750,6 +750,35 @@ public class Copier {
 
 ---
 
+
+## Example problems
+
+Declare a class called `Product` that has a name, brand, and price.
+* Write members
+* Write getters/setters.
+* Write a constructor
+
+Declare a class called `Bag` that is a `Product` that also stores its volume in liters.
+* Write members
+* Write Write getters/setters
+* Write a constructor that fills all members in
+
+Declare a class called `Umbrella` that is a `Product` that also stores its diameter.
+* Write members
+* Write Write getters/setters
+* Write a constructor that fills all members in
+
+Declare a class called `ProductInventory` that has stores a dynamic array of products
+* Write members
+* Write a constructor that initializes all members
+* Write addProduct that adds a product to the inventory
+* Write addBag that adds a bag to the inventory by taking in all parameters of a bag
+* Write addUmbrella that adds an umbrella to inventory by taking all parameters of the inventory
+* Write getProduct that takes in the name of the product and returns it.
+
+---
+
+
 name: conclusions
 
 # Conclusions
