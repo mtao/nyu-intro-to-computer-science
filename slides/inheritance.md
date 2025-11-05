@@ -767,6 +767,10 @@ Declare a class called `Umbrella` that is a `Product` that also stores its diame
 * Write members
 * Write Write getters/setters
 * Write a constructor that fills all members in
+---
+
+
+## Example problems
 
 Declare a class called `ProductInventory` that has stores a dynamic array of products
 * Write members
