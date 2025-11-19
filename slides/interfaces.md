@@ -500,6 +500,7 @@ for (IdealEmployee emp : employees) {
 * Write a class `DiscreteSlider` that satisfies this interface but only accepts a discrete number of values. This method should store an integer `n` for the interface as well as a min value, max value, and step size to store the range and step size for the integer parameter.
     * getValue should be `min + step * n`
     * setValue should round `n`.
+
 ```java
 public interface Slider {
 
