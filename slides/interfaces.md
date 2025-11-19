@@ -529,20 +529,25 @@ public interface RangeInterface{
     // Increments the range to the next value
     public abstract void increment();
     // Indicates if the range is done
-    public abstract boolean finished();
 }
 ```
-* One where we iterate through the values between two integers start and end, it should be constructed by `Range(int start, int end).
-* One which prints out fibonacci numbers smaller than an integer argument passed in.
-* One which prints out factorial numbers that never finishes.
+* `Range` where we iterate through the values larger than `start`, it should be constructed by `Range(int start)`.
+* `FibonacciRange` which prints out fibonacci numbers smaller than an integer argument passed in.
+* `FactorialRange` which prints out factorial numbers that never finishes.
 
 
 
 ---
 ## Example problems
 
-* Write a function that takes in a RangeInterface and prints out the output of every value in the range
-* Write a class that implements RangeInterface that returns the square of a different RangeInterface object. It is passed this object in its constructor.
+* Write a function that takes in a RangeInterface and prints out the output the values in the range indefinitely
+* Write a class `SquareRange` that implements RangeInterface that returns the square of a different RangeInterface object. It is passed this object in its constructor.
+* Add a function  `boolean finished()` to the interface to make sure these functions finish.
+* Edit the RangeInterface to have a function called `incrementAndCheck` that increments and then returns if the iteration is finished.
+    * Rewrite the first function to use this updated interface.
+* Update `Range` where we iterate through the values between two integers start and end, it should be constructed by `Range(int start, int end)`.
+* Update `FibonacciRange` to stop when the number is over some value.
+* Update `SquareRange` to stop when the number is over some value.
 
 
 ---
