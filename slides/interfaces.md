@@ -494,6 +494,58 @@ for (IdealEmployee emp : employees) {
 ```
 
 ---
+## Example problems
+
+* Write a class `DoubleSlider` that satisfies this interface using a double as a member
+* Write a class `DiscreteSlider` that satisfies this interface but only accepts a discrete number of values. This method should store an integer `n` for the interface as well as a min value, max value, and step size to store the range and step size for the integer parameter.
+    * getValue should be `min + step * n`
+    * setValue should round `n`.
+```java
+public interface Slider {
+
+    public abstract double getValue();
+    public abstract void setValue(double value);
+
+}
+```
+---
+## Example problems
+
+* Write a class that stores two sliders to represent the width and depth of a rectangle. By default it should make the depth a `DoubleSlider` and the width as a `DiscreteSlider` with min of 24 units, max of 60 units, step of 6 units.
+* It should have setters that let the users change the type of the `Slider`.
+* It should also have a second constructor that lets the user set the sliders.
+* It should have a members that lets the user set the values of the two sliders
+* It should have a function that computes the area of the rectangle.
+
+
+---
+## Example problems
+
+* Write classes that satisfies the following interface:
+```java
+public interface RangeInterface{
+    // Presents the current value in the range
+    public abstract int getValue();
+    // Increments the range to the next value
+    public abstract void increment();
+    // Indicates if the range is done
+    public abstract boolean finished();
+}
+```
+* One where we iterate through the values between two integers start and end, it should be constructed by `Range(int start, int end).
+* One which prints out fibonacci numbers smaller than an integer argument passed in.
+* One which prints out factorial numbers that never finishes.
+
+
+
+---
+## Example problems
+
+* Write a function that takes in a RangeInterface and prints out the output of every value in the range
+* Write a class that implements RangeInterface that returns the square of a different RangeInterface object. It is passed this object in its constructor.
+
+
+---
 
 name: conclusions
 
