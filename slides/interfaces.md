@@ -543,8 +543,7 @@ public interface RangeInterface{
 
 * Write a function that takes in a RangeInterface and prints out the output the values in the range indefinitely
 * Write a class `SquareRange` that implements RangeInterface that returns the square of a different RangeInterface object. It is passed this object in its constructor.
-* Add a function  `boolean finished()` to the interface to make sure these functions finish.
-* Edit the RangeInterface to have a function called `incrementAndCheck` that increments and then returns if the iteration is finished.
+* Add a function  `boolean finished()` to the interface to make sure these functions can halt if they want to.
     * Rewrite the first function to use this updated interface.
 * Update `Range` where we iterate through the values between two integers start and end, it should be constructed by `Range(int start, int end)`.
 * Update `FibonacciRange` to stop when the number is over some value.
