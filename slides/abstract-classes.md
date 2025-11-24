@@ -271,6 +271,55 @@ Imagine, for example, the following scenarios:
 - a single class might inherit from an abstract class that implements multiple interfaces
 
 ---
+## Example problems
+
+```java
+public interface VectorTransform {
+    public double[] evaluate(double[] x);
+}
+
+public abstract class Nonlinearity implements VectorTransform {
+    // evaluates some function
+    public abstract double evaluate(double x); 
+    // evaluates a function on an entire range
+    public double[] evaluate(double[] x) {
+        // TODO: implement
+    }
+}
+```
+* Implement the evaluate function that evaluates the function `evaluate(double)` on every value of the input array
+* Implement a concrete class `ReLU` that can evaluate `ReLU(x) = max(0,x)` on an entire array using the `Nonlinearity` class
+* Implement a concrete class `Identity` that can evaluate `Identity(x) = x` on an entier array using the `Nonlinearity` class
+
+---
+## Example problems
+
+```java
+public class LinearMap implements VectorTransform {
+    public LinearMap(int inputSize, int outputSize) {...}
+    //...
+}
+```
+* Implement a class called `MultiLevelPerceptron` that implements `VectorTransform` that stores a dynamic list of `VectorTransform`s.
+  - Implement a function `add` to add a new `VectorTransform`.
+  - Its `evaluate` should apply each transform one at a time.
+* Write code to declare a network that starts with a `LinaerMap`, `Relu` then `LinearMap`, where the first map takes in 5 values, outputs 10 values, and the final output is 1 value.
+
+---
+## Example problems
+
+```java
+public interface SwitchInterface {
+    public void toggle();
+    public boolean getState();
+}
+
+```
+* Implement an abstract class `AbstractSwitch` that satisfies the `SwitchInterface` that implements `turnOn`, `turnOff`.
+* Implement a class `Switch` that stores boolean state for `flippedUp` that implements `AbstractSwitch`. It also has a member called `upIsOn` that cannot be publicly changed after construction. If `upIsOn` and `flippedUp` then the switch is on.
+* Implement a class `ThreeWaySwitch` that stores two `SwitchInterface` objects and implements the `AbstractSwitch` interface. The switch is on if both switches have the same state.
+
+---
 
 name: conclusions
 
