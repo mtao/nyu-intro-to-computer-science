@@ -32,7 +32,7 @@ name: structure
 
 ## Overview
 
-The exam will take place Wed April 12th at 4:00 to 5:50 in person on paper .
+The exam will take place Wed December 17th at 4:00 to 5:50 in person on paper .
 (This is what albert says). It will be composed of two parts:
 
 name: prior-knowledge
